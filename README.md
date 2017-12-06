@@ -15,3 +15,6 @@ Bluetooth not working consistently
 Audio only works with VoodooHDA since AppleALC breaks with LVDS Framebufferpatch for some weird reason
 
 maybe find a way to get tracking point stick thingy to work correctly
+
+
+VOoDOOHDA seems to kill BT... weird stuff
