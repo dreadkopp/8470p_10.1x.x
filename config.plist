@@ -587,7 +587,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 kext-dev-mode=1 -disablegfxfirmware</string>
+		<string>dart=0 -disablegfxfirmware -alcdbg -liludbg -lilubeta -liluforce</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
@@ -595,7 +595,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>5</integer>
+		<integer>1</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
@@ -609,7 +609,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<string>12</string>
+			<string>33</string>
 		</dict>
 		<key>USB</key>
 		<dict>
@@ -939,7 +939,7 @@
 		<key>CustomUUID</key>
 		<string>3ED11F80-9273-E311-84CF-D9E6C8038052</string>
 		<key>InjectKexts</key>
-		<string>Detect</string>
+		<string>Yes</string>
 	</dict>
 </dict>
 </plist>
