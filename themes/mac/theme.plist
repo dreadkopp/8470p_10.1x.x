@@ -20,7 +20,7 @@
 			<key>Inline</key>
 			<false/>
 			<key>Show</key>
-			<false/>
+			<true/>
 			<key>Swap</key>
 			<false/>
 		</dict>
@@ -31,17 +31,17 @@
 			<key>Banner</key>
 			<true/>
 			<key>Functions</key>
-			<false/>
+			<true/>
 			<key>Label</key>
-			<false/>
+			<true/>
 			<key>MenuTitle</key>
-			<false/>
+			<true/>
 			<key>MenuTitleImage</key>
-			<false/>
+			<true/>
 			<key>Revision</key>
 			<false/>
 			<key>Tools</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Font</key>
 		<dict>
