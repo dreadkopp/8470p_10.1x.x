@@ -49,8 +49,12 @@
 		</array>
 		<key>DSDT</key>
 		<dict>
+			<key>Debug</key>
+			<true/>
 			<key>Fixes</key>
 			<dict>
+				<key>FixHDA</key>
+				<true/>
 				<key>FixHPET</key>
 				<true/>
 				<key>FixIPIC</key>
@@ -148,62 +152,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Change Device(HECI) _ADR=0x00160000 to _ADR=0</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					SEVDSQhfQURSDAAAFgA=
-					</data>
-					<key>Replace</key>
-					<data>
-					SEVDSQhfQURSDAAAAAA=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change HDAS to HDEF</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					SERBUw==
-					</data>
-					<key>Replace</key>
-					<data>
-					SERFRg==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change B0D3 to HDAU</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					QjBEMw==
-					</data>
-					<key>Replace</key>
-					<data>
-					SERBVQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change SAT0 to SATA</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					U0FUMA==
-					</data>
-					<key>Replace</key>
-					<data>
-					U0FUQQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change Method(UPRW,2,S) to XPRW</string>
 					<key>Disabled</key>
 					<false/>
@@ -214,20 +162,6 @@
 					<key>Replace</key>
 					<data>
 					WFBSVwpwEg==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change Method(GPRW,2,N) to XPRW</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					R1BSVwI=
-					</data>
-					<key>Replace</key>
-					<data>
-					WFBSVwI=
 					</data>
 				</dict>
 				<dict>
@@ -274,20 +208,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change _WAK to ZWAK (G3)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1dBSwk=
-					</data>
-					<key>Replace</key>
-					<data>
-					WldBSwk=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change Method(BTIF,1,Serialized) to BTI0</string>
 					<key>Disabled</key>
 					<false/>
@@ -302,20 +222,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change Method(BTIF,1,Serialized) to BTI0 (G3)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					QlRJRgl5AWg=
-					</data>
-					<key>Replace</key>
-					<data>
-					QlRJMAl5AWg=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change Method(BTST,2,Serialized) to BTS1</string>
 					<key>Disabled</key>
 					<false/>
@@ -326,20 +232,6 @@
 					<key>Replace</key>
 					<data>
 					QlRTMQp5Cg==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change Method(BTST,2,Serialized) to BTS1 (G3)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					QlRTVAp5AWg=
-					</data>
-					<key>Replace</key>
-					<data>
-					QlRTMQp5AWg=
 					</data>
 				</dict>
 				<dict>
@@ -400,34 +292,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change Method(GACW,0,NotSerialized) to XACW (for G4 latest BIOS)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					R0FDVwA=
-					</data>
-					<key>Replace</key>
-					<data>
-					WEFDVwA=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change Method(GBAW,0,NotSerialized) to XBAW (for G4 latest BIOS)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					R0JBVwA=
-					</data>
-					<key>Replace</key>
-					<data>
-					WEJBVwA=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change Name(NBTI,..) to NBT5</string>
 					<key>Disabled</key>
 					<false/>
@@ -438,20 +302,6 @@
 					<key>Replace</key>
 					<data>
 					CE5CVDU=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change Notify(\_SB.BAT0,...) to Notify(_SB.BATC,...)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					hlwuX1NCX0JBVDA=
-					</data>
-					<key>Replace</key>
-					<data>
-					hlwuX1NCX0JBVEM=
 					</data>
 				</dict>
 				<dict>
@@ -470,48 +320,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change Notify(BAT0,...) to Notify(BATC,...)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					hkJBVDA=
-					</data>
-					<key>Replace</key>
-					<data>
-					hkJBVEM=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change Notify(BAT1,...) to Notify(BATC,...)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					hkJBVDE=
-					</data>
-					<key>Replace</key>
-					<data>
-					hkJBVEM=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change Method(RDSS,1,S) to XDSS</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					UkRTUwk=
-					</data>
-					<key>Replace</key>
-					<data>
-					WERTUwk=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change EC Method(_REG,2,N) to XREG, 4x40s, 4x30s</string>
 					<key>Disabled</key>
 					<false/>
@@ -522,20 +330,6 @@
 					<key>Replace</key>
 					<data>
 					WFJFRwKgKJNoCgM=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change EC Method(_REG,2,N) to XREG, 4x0 G3 Skylake</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1JFRwKgFJNoCgM=
-					</data>
-					<key>Replace</key>
-					<data>
-					WFJFRwKgFJNoCgM=
 					</data>
 				</dict>
 				<dict>
@@ -609,7 +403,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<string>33</string>
+			<string>12</string>
 		</dict>
 		<key>USB</key>
 		<dict>
@@ -703,168 +497,6 @@
 				<key>Replace</key>
 				<data>
 				BQMAAAIAAAAwAgAA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>AirPortBrcm4360 whitelist patch (board-id), 10.13.beta9, credit RehabMan</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				SDtF4HUU
-				</data>
-				<key>MatchOS</key>
-				<string>10.13.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.AirPort.Brcm4360</string>
-				<key>Replace</key>
-				<data>
-				/8OQkJCQ
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>AirPortBrcm4360 whitelist patch (board-id), 10.12.dp1, credit RehabMan</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				MdtMO33YdRI=
-				</data>
-				<key>MatchOS</key>
-				<string>10.12.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.AirPort.Brcm4360</string>
-				<key>Replace</key>
-				<data>
-				Mdv/w5CQkJA=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>AirPortBrcm4360 whitelist patch (board-id), 10.11.x, credit RehabMan</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				MdtMO2XYdRI=
-				</data>
-				<key>MatchOS</key>
-				<string>10.11.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.AirPort.Brcm4360</string>
-				<key>Replace</key>
-				<data>
-				Mdv/w5CQkJA=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>AirPortBrcm4360 whitelist patch (board-id), 10.10.5, credit RehabMan</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				MdtJiwQkSDtF2HUS
-				</data>
-				<key>MatchOS</key>
-				<string>10.10.5</string>
-				<key>Name</key>
-				<string>com.apple.driver.AirPort.Brcm4360</string>
-				<key>Replace</key>
-				<data>
-				Mdv/w5CQkJCQkJCQ
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>10.9.5 5Ghz US FCC, svko</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				WFQAIBcnIAAA
-				</data>
-				<key>MatchOS</key>
-				<string>10.9.5</string>
-				<key>Name</key>
-				<string>com.apple.driver.AirPort.Brcm4360</string>
-				<key>Replace</key>
-				<data>
-				WFQAG2cxlQAJ
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>10.10.2+ 5Ghz US FCC, the-darkvoid</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				QYP8/3QsSA==
-				</data>
-				<key>MatchOS</key>
-				<string>10.10.x,10.11.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.AirPort.Brcm4360</string>
-				<key>Replace</key>
-				<data>
-				ZscGVVPrKw==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>AirPortBrcm4360 - fcvo, 10.12.x (credit the-darkvoid)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				gflSqgAAdSk=
-				</data>
-				<key>MatchOS</key>
-				<string>10.12.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.AirPort.Brcm4360</string>
-				<key>Replace</key>
-				<data>
-				gflSqgAAZpA=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>10.10.2+ BT4LE-Handoff-Hotspot, Dokterdok</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				SIXAdFwPt0g=
-				</data>
-				<key>MatchOS</key>
-				<string>10.10.x</string>
-				<key>Name</key>
-				<string>com.apple.iokit.IOBluetoothFamily</string>
-				<key>Replace</key>
-				<data>
-				Qb4PAAAA61k=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>10.11.dp1+ BT4LE-Handoff-Hotspot, credit RehabMan based on Dokterdok original</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				SIX/dEdIiwc=
-				</data>
-				<key>MatchOS</key>
-				<string>10.11.x,10.12.x</string>
-				<key>Name</key>
-				<string>com.apple.iokit.IOBluetoothFamily</string>
-				<key>Replace</key>
-				<data>
-				Qb4PAAAA60Q=
 				</data>
 			</dict>
 		</array>

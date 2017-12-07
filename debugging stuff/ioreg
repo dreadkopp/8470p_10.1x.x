@@ -1,0 +1,538 @@
++-o Root  <class IORegistryEntry, id 0x100000100, retain 9>
+  +-o MacBookPro9,2  <class IOPlatformExpertDevice, id 0x10000010f, registered, matched, active, busy 0 (6807 ms), retain 55>
+    +-o AppleACPIPlatformExpert  <class AppleACPIPlatformExpert, id 0x100000110, registered, matched, active, busy 0 (6705 ms), retain 60>
+    | +-o IOPMrootDomain  <class IOPMrootDomain, id 0x100000113, registered, matched, active, busy 0 (30 ms), retain 81>
+    | | +-o IORootParent  <class IORootParent, id 0x100000114, !registered, !matched, active, busy 0, retain 7>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x100000328, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x100000329, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x10000032e, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x100000331, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x100000332, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x100000337, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x100000342, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x100000343, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x100000344, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x10000034a, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x10000034b, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x100000352, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000003a3, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000003a4, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000003a5, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000003ad, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000003c8, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000003c9, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000003dc, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000003df, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000003e0, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000003e1, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000003e2, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x100000420, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x100000430, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x100000435, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x100000436, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x10000043d, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x10000045e, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x100000471, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x100000472, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x100000474, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x100000476, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x100000482, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x100000489, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x10000048a, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x10000048c, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x10000048d, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x10000048e, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x10000048f, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x100000490, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x100000496, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x100000497, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x100000498, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000004a0, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000004a1, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000004a2, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000004a3, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000004a4, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000004a5, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000004a6, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000004cc, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000004d4, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000004d7, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000004d8, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000004da, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000004dc, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000004dd, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x1000004f6, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x10000050d, !registered, !matched, active, busy 0, retain 5>
+    | | +-o RootDomainUserClient  <class RootDomainUserClient, id 0x10000050f, !registered, !matched, active, busy 0, retain 5>
+    | +-o IOPCIMessagedInterruptController  <class IOPCIMessagedInterruptController, id 0x100000116, registered, matched, active, busy 0 (0 ms), retain 7>
+    | +-o cpus  <class IOPlatformDevice, id 0x100000117, registered, matched, active, busy 0 (0 ms), retain 14>
+    | +-o CPU0@0  <class IOACPIPlatformDevice, id 0x100000118, registered, matched, active, busy 0 (1882 ms), retain 9>
+    | | +-o AppleACPICPU  <class AppleACPICPU, id 0x100000134, registered, matched, active, busy 0 (1713 ms), retain 8>
+    | | | +-o AppleACPICPUInterruptController  <class AppleACPICPUInterruptController, id 0x100000136, registered, matched, active, busy 0 (0 ms), retain 6>
+    | | | +-o X86PlatformPlugin  <class X86PlatformPlugin, id 0x100000363, registered, matched, active, busy 0 (1671 ms), retain 12>
+    | | |   +-o IOPlatformEnabler  <class IOPlatformPluginDevice, id 0x1000003af, registered, matched, active, busy 0 (3 ms), retain 6>
+    | | |   +-o AGPMEnabler  <class IOPlatformPluginDevice, id 0x1000003b0, registered, matched, active, busy 0 (6 ms), retain 7>
+    | | |   | +-o AGPMController  <class AGPMController, id 0x1000003b6, !registered, !matched, active, busy 0, retain 4>
+    | | |   +-o X86PlatformShim  <class X86PlatformShim, id 0x1000003b2, !registered, !matched, active, busy 0, retain 6>
+    | | +-o CPUSensors  <class CPUSensors, id 0x100000135, registered, matched, active, busy 0 (0 ms), retain 6>
+    | +-o CPU1@1  <class IOACPIPlatformDevice, id 0x100000119, registered, matched, active, busy 0 (70 ms), retain 8>
+    | | +-o AppleACPICPU  <class AppleACPICPU, id 0x100000138, registered, matched, active, busy 0 (0 ms), retain 6>
+    | +-o CPU2@2  <class IOACPIPlatformDevice, id 0x10000011a, registered, matched, active, busy 0 (71 ms), retain 8>
+    | | +-o AppleACPICPU  <class AppleACPICPU, id 0x100000137, registered, matched, active, busy 0 (0 ms), retain 6>
+    | +-o CPU3@3  <class IOACPIPlatformDevice, id 0x10000011b, registered, matched, active, busy 0 (125 ms), retain 8>
+    | | +-o AppleACPICPU  <class AppleACPICPU, id 0x10000012f, registered, matched, active, busy 0 (52 ms), retain 6>
+    | +-o CPU4  <class IOACPIPlatformDevice, id 0x10000011c, registered, matched, active, busy 0 (125 ms), retain 7>
+    | +-o CPU5  <class IOACPIPlatformDevice, id 0x10000011d, registered, matched, active, busy 0 (124 ms), retain 7>
+    | +-o CPU6  <class IOACPIPlatformDevice, id 0x10000011e, registered, matched, active, busy 0 (125 ms), retain 7>
+    | +-o CPU7  <class IOACPIPlatformDevice, id 0x10000011f, registered, matched, active, busy 0 (124 ms), retain 7>
+    | +-o io-apic@fec00000  <class IOACPIPlatformDevice, id 0x100000120, registered, matched, active, busy 0 (53 ms), retain 7>
+    | | +-o AppleAPICInterruptController  <class AppleAPICInterruptController, id 0x10000013b, registered, matched, active, busy 0 (0 ms), retain 10>
+    | +-o AppleACPIEventController  <class AppleACPIEventController, id 0x10000013c, !registered, !matched, active, busy 0, retain 6>
+    | +-o bios  <class IOPlatformDevice, id 0x10000013d, registered, matched, active, busy 0 (0 ms), retain 6>
+    | | +-o AppleSMBIOS  <class AppleSMBIOS, id 0x100000140, registered, matched, active, busy 0 (0 ms), retain 5>
+    | +-o PCI0@0  <class IOACPIPlatformDevice, id 0x100000145, registered, matched, active, busy 0 (6513 ms), retain 48>
+    | | +-o AppleACPIPCI  <class AppleACPIPCI, id 0x100000202, registered, matched, active, busy 0 (6467 ms), retain 51>
+    | |   +-o pci8086,154@0  <class IOPCIDevice, id 0x100000227, registered, matched, active, busy 0 (1411 ms), retain 9>
+    | |   | +-o AppleSMCPDRC  <class AppleSMCPDRC, id 0x10000035a, registered, matched, active, busy 0 (0 ms), retain 5>
+    | |   +-o IGPU@2  <class IOPCIDevice, id 0x1000001c1, registered, matched, active, busy 0 (271 ms), retain 48>
+    | |   | +-o AppleIntelCapriController  <class AppleIntelCapriController, id 0x10000036d, registered, matched, active, busy 0 (96 ms), retain 21>
+    | |   | | +-o IntelFBClientControl  <class IntelFBClientControl, id 0x100000379, registered, matched, active, busy 0 (0 ms), retain 18>
+    | |   | | | +-o AppleGraphicsDevicePolicy  <class AppleGraphicsDevicePolicy, id 0x10000039c, !registered, !matched, active, busy 0, retain 4>
+    | |   | | | +-o AppleGraphicsDeviceControlClient  <class AppleGraphicsDeviceControlClient, id 0x1000003ef, !registered, !matched, active, busy 0, retain 5>
+    | |   | | | +-o AppleGraphicsDeviceControlClient  <class AppleGraphicsDeviceControlClient, id 0x1000003fe, !registered, !matched, active, busy 0, retain 5>
+    | |   | | | +-o AppleGraphicsDeviceControlClient  <class AppleGraphicsDeviceControlClient, id 0x100000405, !registered, !matched, active, busy 0, retain 5>
+    | |   | | | +-o AppleGraphicsDeviceControlClient  <class AppleGraphicsDeviceControlClient, id 0x10000040b, !registered, !matched, active, busy 0, retain 5>
+    | |   | | | +-o AppleGraphicsDeviceControlClient  <class AppleGraphicsDeviceControlClient, id 0x100000411, !registered, !matched, active, busy 0, retain 5>
+    | |   | | | +-o AppleGraphicsDeviceControlClient  <class AppleGraphicsDeviceControlClient, id 0x100000414, !registered, !matched, active, busy 0, retain 5>
+    | |   | | +-o AppleMEClientController  <class AppleMEClientController, id 0x10000039b, registered, matched, active, busy 0 (0 ms), retain 6>
+    | |   | +-o AppleIntelFramebuffer@0  <class AppleIntelFramebuffer, id 0x100000371, registered, matched, active, busy 0 (9 ms), retain 20>
+    | |   | | +-o AppleMCCSControlModule  <class AppleMCCSControlModule, id 0x10000037a, registered, matched, active, busy 0 (4 ms), retain 7>
+    | |   | | | +-o AppleMCCSParameterHandler  <class AppleMCCSParameterHandler, id 0x100000383, registered, matched, active, busy 0 (0 ms), retain 5>
+    | |   | | +-o AppleUpstreamUserClientDriver  <class AppleUpstreamUserClientDriver, id 0x10000037b, registered, matched, active, busy 0 (0 ms), retain 5>
+    | |   | | +-o AGPM  <class AGPM, id 0x1000003b7, registered, matched, active, busy 0 (0 ms), retain 8>
+    | |   | | +-o IOFramebufferI2CInterface  <class IOFramebufferI2CInterface, id 0x1000003e5, registered, matched, active, busy 0 (0 ms), retain 5>
+    | |   | | +-o display0  <class IODisplayConnect, id 0x1000003e6, registered, matched, active, busy 0 (0 ms), retain 6>
+    | |   | | | +-o AppleBacklightDisplay  <class AppleBacklightDisplay, id 0x1000003e7, registered, matched, active, busy 0 (0 ms), retain 8>
+    | |   | | +-o IOFramebufferUserClient  <class IOFramebufferUserClient, id 0x1000003ee, !registered, !matched, active, busy 0, retain 5>
+    | |   | | +-o IOFramebufferSharedUserClient  <class IOFramebufferSharedUserClient, id 0x100000502, !registered, !matched, active, busy 0, retain 5>
+    | |   | +-o AppleIntelFramebuffer@1  <class AppleIntelFramebuffer, id 0x100000372, registered, matched, active, busy 0 (6 ms), retain 15>
+    | |   | | +-o AppleMCCSControlModule  <class AppleMCCSControlModule, id 0x10000037c, registered, matched, active, busy 0 (1 ms), retain 7>
+    | |   | | | +-o AppleMCCSParameterHandler  <class AppleMCCSParameterHandler, id 0x100000380, registered, matched, active, busy 0 (0 ms), retain 5>
+    | |   | | +-o AppleUpstreamUserClientDriver  <class AppleUpstreamUserClientDriver, id 0x10000037d, registered, matched, active, busy 0 (0 ms), retain 5>
+    | |   | | +-o IOFramebufferI2CInterface  <class IOFramebufferI2CInterface, id 0x1000003ea, registered, matched, active, busy 0 (0 ms), retain 5>
+    | |   | | +-o IOFramebufferUserClient  <class IOFramebufferUserClient, id 0x1000003f0, !registered, !matched, active, busy 0, retain 5>
+    | |   | +-o AppleIntelFramebuffer@2  <class AppleIntelFramebuffer, id 0x100000373, registered, matched, active, busy 0 (10 ms), retain 15>
+    | |   | | +-o AppleMCCSControlModule  <class AppleMCCSControlModule, id 0x10000037e, registered, matched, active, busy 0 (4 ms), retain 7>
+    | |   | | | +-o AppleMCCSParameterHandler  <class AppleMCCSParameterHandler, id 0x100000385, registered, matched, active, busy 0 (0 ms), retain 5>
+    | |   | | +-o AppleUpstreamUserClientDriver  <class AppleUpstreamUserClientDriver, id 0x10000037f, registered, matched, active, busy 0 (0 ms), retain 5>
+    | |   | | +-o IOFramebufferI2CInterface  <class IOFramebufferI2CInterface, id 0x1000003ec, registered, matched, active, busy 0 (0 ms), retain 5>
+    | |   | | +-o IOFramebufferUserClient  <class IOFramebufferUserClient, id 0x1000003f1, !registered, !matched, active, busy 0, retain 5>
+    | |   | +-o AppleIntelFramebuffer@3  <class AppleIntelFramebuffer, id 0x100000374, registered, matched, active, busy 0 (10 ms), retain 15>
+    | |   | | +-o AppleMCCSControlModule  <class AppleMCCSControlModule, id 0x100000381, registered, matched, active, busy 0 (3 ms), retain 7>
+    | |   | | | +-o AppleMCCSParameterHandler  <class AppleMCCSParameterHandler, id 0x100000384, registered, matched, active, busy 0 (0 ms), retain 5>
+    | |   | | +-o AppleUpstreamUserClientDriver  <class AppleUpstreamUserClientDriver, id 0x100000382, registered, matched, active, busy 0 (0 ms), retain 5>
+    | |   | | +-o IOFramebufferI2CInterface  <class IOFramebufferI2CInterface, id 0x1000003ed, registered, matched, active, busy 0 (0 ms), retain 5>
+    | |   | | +-o IOFramebufferUserClient  <class IOFramebufferUserClient, id 0x1000003f2, !registered, !matched, active, busy 0, retain 5>
+    | |   | +-o IntelAccelerator  <class IntelAccelerator, id 0x10000036f, registered, matched, active, busy 0 (5 ms), retain 69>
+    | |   |   +-o IGAccel2DContext  <class IGAccel2DContext, id 0x1000003f4, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccel2DContext  <class IGAccel2DContext, id 0x1000003f5, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccel2DContext  <class IGAccel2DContext, id 0x1000003f6, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccel2DContext  <class IGAccel2DContext, id 0x1000003f7, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IOAccelDisplayPipeUserClient2  <class IOAccelDisplayPipeUserClient2, id 0x100000400, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IOAccelDisplayPipeUserClient2  <class IOAccelDisplayPipeUserClient2, id 0x100000407, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IOAccelDisplayPipeUserClient2  <class IOAccelDisplayPipeUserClient2, id 0x10000040d, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IOAccelDisplayPipeUserClient2  <class IOAccelDisplayPipeUserClient2, id 0x100000413, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelSurface  <class IGAccelSurface, id 0x100000417, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelDevice  <class IGAccelDevice, id 0x100000418, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelSharedUserClient  <class IGAccelSharedUserClient, id 0x100000419, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelSurface  <class IGAccelSurface, id 0x10000041b, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelSurface  <class IGAccelSurface, id 0x10000041c, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelSurface  <class IGAccelSurface, id 0x10000041d, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelSurface  <class IGAccelSurface, id 0x10000041e, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelSurface  <class IGAccelSurface, id 0x10000041f, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelDevice  <class IGAccelDevice, id 0x100000421, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelSharedUserClient  <class IGAccelSharedUserClient, id 0x100000422, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelGLContext  <class IGAccelGLContext, id 0x100000423, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelCommandQueue  <class IGAccelCommandQueue, id 0x100000425, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelCommandQueue  <class IGAccelCommandQueue, id 0x10000043a, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelDevice  <class IGAccelDevice, id 0x100000478, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelSharedUserClient  <class IGAccelSharedUserClient, id 0x10000047a, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelDevice  <class IGAccelDevice, id 0x10000047d, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelDevice  <class IGAccelDevice, id 0x10000047e, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelSharedUserClient  <class IGAccelSharedUserClient, id 0x10000047f, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelCommandQueue  <class IGAccelCommandQueue, id 0x100000480, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelDevice  <class IGAccelDevice, id 0x100000484, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelDevice  <class IGAccelDevice, id 0x100000486, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelSharedUserClient  <class IGAccelSharedUserClient, id 0x100000487, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelCommandQueue  <class IGAccelCommandQueue, id 0x100000488, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelDevice  <class IGAccelDevice, id 0x100000492, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelDevice  <class IGAccelDevice, id 0x100000493, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelSharedUserClient  <class IGAccelSharedUserClient, id 0x100000494, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelCommandQueue  <class IGAccelCommandQueue, id 0x100000495, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelDevice  <class IGAccelDevice, id 0x10000049b, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelDevice  <class IGAccelDevice, id 0x10000049c, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelSharedUserClient  <class IGAccelSharedUserClient, id 0x10000049d, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelCommandQueue  <class IGAccelCommandQueue, id 0x10000049e, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelDevice  <class IGAccelDevice, id 0x1000004cf, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelDevice  <class IGAccelDevice, id 0x1000004d0, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelSharedUserClient  <class IGAccelSharedUserClient, id 0x1000004d1, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelCommandQueue  <class IGAccelCommandQueue, id 0x1000004d2, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelDevice  <class IGAccelDevice, id 0x1000004f8, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelDevice  <class IGAccelDevice, id 0x1000004f9, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelSharedUserClient  <class IGAccelSharedUserClient, id 0x1000004fa, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelCommandQueue  <class IGAccelCommandQueue, id 0x1000004fb, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelDevice  <class IGAccelDevice, id 0x1000004fc, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelSharedUserClient  <class IGAccelSharedUserClient, id 0x100000503, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelGLContext  <class IGAccelGLContext, id 0x100000504, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelDevice  <class IGAccelDevice, id 0x100000509, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelDevice  <class IGAccelDevice, id 0x10000050a, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelSharedUserClient  <class IGAccelSharedUserClient, id 0x10000050b, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelCommandQueue  <class IGAccelCommandQueue, id 0x10000050c, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelDevice  <class IGAccelDevice, id 0x100000511, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelDevice  <class IGAccelDevice, id 0x100000512, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelSharedUserClient  <class IGAccelSharedUserClient, id 0x100000513, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IGAccelCommandQueue  <class IGAccelCommandQueue, id 0x100000514, !registered, !matched, active, busy 0, retain 6>
+    | |   +-o XHC@14  <class IOPCIDevice, id 0x1000001e4, registered, matched, active, busy 0 (934 ms), retain 14>
+    | |   | +-o FakePCIID_XHCIMux  <class FakePCIID_XHCIMux, id 0x10000025d, !registered, !matched, active, busy 0, retain 4>
+    | |   | +-o XHC@14000000  <class AppleUSBXHCIPPT, id 0x10000025e, registered, matched, active, busy 0 (43 ms), retain 42>
+    | |   |   +-o SSP1@14100000  <class AppleUSB30XHCIPort, id 0x1000002f9, registered, matched, active, busy 0 (0 ms), retain 11>
+    | |   |   +-o SSP2@14200000  <class AppleUSB30XHCIPort, id 0x1000002fd, registered, matched, active, busy 0 (0 ms), retain 11>
+    | |   |   +-o SSP3@14300000  <class AppleUSB30XHCIPort, id 0x100000300, registered, matched, active, busy 0 (0 ms), retain 11>
+    | |   |   +-o SSP4@14400000  <class AppleUSB30XHCIPort, id 0x100000301, registered, matched, active, busy 0 (0 ms), retain 11>
+    | |   +-o IMEI@16  <class IOPCIDevice, id 0x100000201, registered, matched, active, busy 0 (25 ms), retain 10>
+    | |   | +-o AppleIntelMEIDriver  <class AppleIntelMEIDriver, id 0x100000354, registered, matched, active, busy 0 (0 ms), retain 7>
+    | |   +-o LANC@19  <class IOPCIDevice, id 0x1000001cb, registered, matched, active, busy 0 (1127 ms), retain 11>
+    | |   | +-o IntelMausi  <class IntelMausi, id 0x10000024f, !registered, !matched, active, busy 0 (0 ms), retain 7>
+    | |   |   +-o en0  <class IOEthernetInterface, id 0x100000324, registered, matched, active, busy 0 (0 ms), retain 12>
+    | |   |     +-o IONetworkStack  <class IONetworkStack, id 0x1000002e2, registered, matched, active, busy 0 (0 ms), retain 10>
+    | |   |       +-o IONetworkStackUserClient  <class IONetworkStackUserClient, id 0x10000032d, !registered, !matched, active, busy 0, retain 5>
+    | |   +-o EH02@1A  <class IOPCIDevice, id 0x1000001d9, registered, matched, active, busy 0 (932 ms), retain 12>
+    | |   | +-o EH02@1a000000  <class AppleUSBEHCIPCI, id 0x10000023b, registered, matched, active, busy 0 (764 ms), retain 94>
+    | |   |   +-o PRT0@1a100000  <class AppleUSBEHCIPort, id 0x100000272, registered, matched, active, busy 0 (12 ms), retain 13>
+    | |   |   | +-o IOUSBHostDevice@1a100000  <class IOUSBHostDevice, id 0x100000283, registered, matched, active, busy 0 (12 ms), retain 35>
+    | |   |   |   +-o AppleUSBHostLegacyClient  <class AppleUSBHostLegacyClient, id 0x10000028b, !registered, !matched, active, busy 0, retain 8>
+    | |   |   |   +-o AppleUSB20InternalIntelHub@1a100000  <class AppleUSB20InternalIntelHub, id 0x100000295, registered, matched, active, busy 0 (6 ms), retain 37>
+    | |   |   |   | +-o HPT0@1a110000  <class AppleUSB20InternalIntelHubPort, id 0x10000029f, registered, matched, active, busy 0 (0 ms), retain 11>
+    | |   |   |   | +-o HPT1@1a120000  <class AppleUSB20InternalIntelHubPort, id 0x1000002a0, registered, matched, active, busy 0 (0 ms), retain 13>
+    | |   |   |   | +-o HPT2@1a130000  <class AppleUSB20InternalIntelHubPort, id 0x1000002a1, registered, matched, active, busy 0 (6 ms), retain 15>
+    | |   |   |   | | +-o HP HD Webcam [Fixed]@1a130000  <class IOUSBHostDevice, id 0x1000002be, registered, matched, active, busy 0 (5 ms), retain 23>
+    | |   |   |   | |   +-o AppleUSBHostLegacyClient  <class AppleUSBHostLegacyClient, id 0x1000002cd, !registered, !matched, active, busy 0, retain 10>
+    | |   |   |   | |   +-o AppleUSBHostCompositeDevice  <class AppleUSBHostCompositeDevice, id 0x1000002d7, !registered, !matched, active, busy 0, retain 4>
+    | |   |   |   | |   +-o HP HD Webcam [Fixed]@0  <class IOUSBHostInterface, id 0x1000002d9, registered, matched, active, busy 0 (1 ms), retain 6>
+    | |   |   |   | |   +-o IOUSBHostInterface@1  <class IOUSBHostInterface, id 0x1000002da, registered, matched, active, busy 0 (1 ms), retain 7>
+    | |   |   |   | +-o HPT3@1a140000  <class AppleUSB20InternalIntelHubPort, id 0x1000002a2, registered, matched, active, busy 0 (0 ms), retain 13>
+    | |   |   |   | +-o HPT4@1a150000  <class AppleUSB20InternalIntelHubPort, id 0x1000002a3, registered, matched, active, busy 0 (0 ms), retain 11>
+    | |   |   |   | +-o HPT5@1a160000  <class AppleUSB20InternalIntelHubPort, id 0x1000002a4, registered, matched, active, busy 0 (0 ms), retain 13>
+    | |   |   |   +-o IOUSBHostInterface@0  <class IOUSBHostInterface, id 0x10000029b, !registered, !matched, active, busy 0, retain 9>
+    | |   |   +-o HPT2@1a300000  <class AppleUSBEHCIPort, id 0x100000273, registered, matched, active, busy 0 (0 ms), retain 9>
+    | |   +-o HDEF@1B  <class IOPCIDevice, id 0x1000001cc, registered, matched, active, busy 0 (31 ms), retain 9>
+    | |   | +-o AppleHDAController@1B  <class AppleHDAController, id 0x100000358, !registered, !matched, active, busy 0, retain 6>
+    | |   |   +-o IOHDACodecDevice@1B,0  <class IOHDACodecDevice, id 0x10000036b, !registered, !matched, active, busy 0, retain 5>
+    | |   |   +-o IOHDACodecDevice@1B,3  <class IOHDACodecDevice, id 0x10000036c, !registered, !matched, active, busy 0, retain 5>
+    | |   +-o RP01@1C  <class IOPCIDevice, id 0x1000001fa, registered, matched, active, busy 0 (50 ms), retain 10>
+    | |   | +-o IOPP  <class IOPCI2PCIBridge, id 0x100000240, registered, matched, active, busy 0 (0 ms), retain 6>
+    | |   +-o RP03@1C,2  <class IOPCIDevice, id 0x1000001fb, registered, matched, active, busy 0 (277 ms), retain 14>
+    | |   | +-o IOPP  <class IOPCI2PCIBridge, id 0x10000023c, registered, matched, active, busy 0 (226 ms), retain 10>
+    | |   |   +-o SMHC@0  <class IOPCIDevice, id 0x1000001fc, registered, matched, active, busy 0 (226 ms), retain 10>
+    | |   |   | +-o JMB38X  <class JMB38X, id 0x100000252, registered, matched, active, busy 0 (0 ms), retain 9>
+    | |   |   |   +-o JMB38XSDHC  <class JMB38XSDHC, id 0x100000282, registered, matched, active, busy 0 (0 ms), retain 6>
+    | |   |   +-o XDCC@0,2  <class IOPCIDevice, id 0x1000001fe, registered, matched, active, busy 0 (0 ms), retain 8>
+    | |   +-o EH01@1D  <class IOPCIDevice, id 0x1000001cd, registered, matched, active, busy 0 (6459 ms), retain 12>
+    | |   | +-o EH01@1d000000  <class AppleUSBEHCIPCI, id 0x10000023d, registered, matched, active, busy 0 (6292 ms), retain 147>
+    | |   |   +-o PRT0@1d100000  <class AppleUSBEHCIPort, id 0x10000026c, registered, matched, active, busy 0 (5783 ms), retain 13>
+    | |   |     +-o IOUSBHostDevice@1d100000  <class IOUSBHostDevice, id 0x100000284, registered, matched, active, busy 0 (5782 ms), retain 40>
+    | |   |       +-o AppleUSBHostLegacyClient  <class AppleUSBHostLegacyClient, id 0x100000292, !registered, !matched, active, busy 0, retain 8>
+    | |   |       +-o AppleUSB20InternalIntelHub@1d100000  <class AppleUSB20InternalIntelHub, id 0x100000298, registered, matched, active, busy 0 (5777 ms), retain 49>
+    | |   |       | +-o HPT0@1d110000  <class AppleUSB20InternalIntelHubPort, id 0x1000002a5, registered, matched, active, busy 0 (0 ms), retain 13>
+    | |   |       | +-o HPT1@1d120000  <class AppleUSB20InternalIntelHubPort, id 0x1000002a6, registered, matched, active, busy 0 (0 ms), retain 13>
+    | |   |       | +-o HPT2@1d130000  <class AppleUSB20InternalIntelHubPort, id 0x1000002a7, registered, matched, active, busy 0 (40 ms), retain 17>
+    | |   |       | | +-o Android Phone@1d130000  <class IOUSBHostDevice, id 0x1000002bd, !registered, !matched, active, busy 0 (40 ms), retain 26>
+    | |   |       | |   +-o AppleUSBHostLegacyClient  <class AppleUSBHostLegacyClient, id 0x1000002c1, !registered, !matched, active, busy 0, retain 10>
+    | |   |       | |   +-o RNDIS Communications Control@0  <class IOUSBHostInterface, id 0x1000002f2, registered, matched, active, busy 0 (2 ms), retain 8>
+    | |   |       | |   +-o RNDIS Ethernet Data@1  <class IOUSBHostInterface, id 0x10000030e, registered, matched, active, busy 0 (38 ms), retain 9>
+    | |   |       | +-o HPT3@1d140000  <class AppleUSB20InternalIntelHubPort, id 0x1000002a8, registered, matched, active, busy 0 (0 ms), retain 13>
+    | |   |       | +-o HPT4@1d150000  <class AppleUSB20InternalIntelHubPort, id 0x1000002aa, registered, matched, active, busy 0 (0 ms), retain 13>
+    | |   |       | +-o HPT5@1d160000  <class AppleUSB20InternalIntelHubPort, id 0x1000002ab, registered, matched, active, busy 0 (5776 ms), retain 15>
+    | |   |       | | +-o BCM20702A0@1d160000  <class IOUSBHostDevice, id 0x1000002c5, registered, matched, active, busy 0 (5775 ms), retain 34>
+    | |   |       | |   +-o AppleUSBHostLegacyClient  <class AppleUSBHostLegacyClient, id 0x1000002c8, !registered, !matched, active, busy 0, retain 8>
+    | |   |       | |   +-o IOUSBHostInterface@0  <class IOUSBHostInterface, id 0x1000003c0, registered, matched, active, busy 0 (2 ms), retain 12>
+    | |   |       | |   +-o IOUSBHostInterface@1  <class IOUSBHostInterface, id 0x1000003c1, registered, matched, active, busy 0 (2 ms), retain 8>
+    | |   |       | |   +-o IOUSBHostInterface@2  <class IOUSBHostInterface, id 0x1000003c2, registered, matched, active, busy 0 (2 ms), retain 6>
+    | |   |       | |   +-o IOUSBHostInterface@3  <class IOUSBHostInterface, id 0x1000003c3, registered, matched, active, busy 0 (2 ms), retain 6>
+    | |   |       | |   +-o BroadcomBluetoothHostControllerUSBTransport  <class BroadcomBluetoothHostControllerUSBTransport, id 0x1000003d6, registered, matched, active, busy 0 (0 ms), retain 13>
+    | |   |       | +-o HPT6@1d170000  <class AppleUSB20InternalIntelHubPort, id 0x1000002ac, registered, matched, active, busy 0 (0 ms), retain 13>
+    | |   |       | +-o HPT7@1d180000  <class AppleUSB20InternalIntelHubPort, id 0x1000002ad, registered, matched, active, busy 0 (0 ms), retain 11>
+    | |   |       +-o IOUSBHostInterface@0  <class IOUSBHostInterface, id 0x10000029d, !registered, !matched, active, busy 0, retain 9>
+    | |   +-o LPCB@1F  <class IOPCIDevice, id 0x1000001ef, registered, matched, active, busy 0 (149 ms), retain 24>
+    | |   | +-o AppleLPC  <class AppleLPC, id 0x100000367, registered, matched, active, busy 0 (0 ms), retain 7>
+    | |   | +-o com_apple_driver_eficheck  <class com_apple_driver_eficheck, id 0x100000369, registered, matched, active, busy 0 (0 ms), retain 5>
+    | |   +-o SATA@1F,2  <class IOPCIDevice, id 0x1000001f0, registered, matched, active, busy 0 (1266 ms), retain 16>
+    | |     +-o AppleIntelPchSeriesAHCI  <class AppleIntelPchSeriesAHCI, id 0x100000245, registered, matched, active, busy 0 (1012 ms), retain 15>
+    | |       +-o PRT0@0  <class AppleIntelPchSeriesAHCIPort, id 0x1000001f1, registered, matched, active, busy 0 (990 ms), retain 12>
+    | |       | +-o IOAHCIDevice@0  <class IOAHCIDevice, id 0x10000024b, registered, matched, active, busy 0 (990 ms), retain 15>
+    | |       |   +-o AppleAHCIDiskDriver  <class AppleAHCIDiskDriver, id 0x100000259, registered, matched, active, busy 0 (886 ms), retain 7>
+    | |       |     +-o IOAHCIBlockStorageDevice  <class IOAHCIBlockStorageDevice, id 0x100000268, registered, matched, active, busy 0 (886 ms), retain 7>
+    | |       |       +-o IOBlockStorageDriver  <class IOBlockStorageDriver, id 0x10000026b, registered, matched, active, busy 0 (885 ms), retain 8>
+    | |       |         +-o WDC WD5000LPLX-08ZNTT0 Media  <class IOMedia, id 0x10000026d, registered, matched, active, busy 0 (885 ms), retain 11>
+    | |       |           +-o IOMediaBSDClient  <class IOMediaBSDClient, id 0x10000026f, registered, matched, active, busy 0 (0 ms), retain 6>
+    | |       |           +-o IOGUIDPartitionScheme  <class IOGUIDPartitionScheme, id 0x10000027e, !registered, !matched, active, busy 0 (123 ms), retain 10>
+    | |       |             +-o EFI System Partition@1  <class IOMedia, id 0x1000002fa, registered, matched, active, busy 0 (4 ms), retain 10>
+    | |       |             | +-o IOMediaBSDClient  <class IOMediaBSDClient, id 0x10000030a, registered, matched, active, busy 0 (0 ms), retain 7>
+    | |       |             +-o Untitled 2@2  <class IOMedia, id 0x1000002fb, registered, matched, active, busy 0 (123 ms), retain 11>
+    | |       |             | +-o IOMediaBSDClient  <class IOMediaBSDClient, id 0x10000030b, registered, matched, active, busy 0 (0 ms), retain 6>
+    | |       |             | +-o CoreStoragePhysical  <class CoreStoragePhysical, id 0x10000030c, !registered, !matched, active, busy 0, retain 7>
+    | |       |             |   +-o FusionDrive  <class CoreStorageGroup, id 0x100000317, registered, matched, active, busy 0 (21 ms), retain 10>
+    | |       |             |     +-o macOS  <class CoreStorageLogical, id 0x10000031c, registered, matched, active, busy 0 (2 ms), retain 12>
+    | |       |             |       +-o CoreStorageLogicalBSDClient  <class CoreStorageLogicalBSDClient, id 0x10000031d, registered, matched, active, busy 0 (0 ms), retain 7>
+    | |       |             +-o Booter@3  <class IOMedia, id 0x1000002fc, registered, matched, active, busy 0 (42 ms), retain 9>
+    | |       |             | +-o IOMediaBSDClient  <class IOMediaBSDClient, id 0x10000030d, registered, matched, active, busy 0 (0 ms), retain 6>
+    | |       |             +-o Untitled 4@4  <class IOMedia, id 0x1000002fe, registered, matched, active, busy 0 (5 ms), retain 10>
+    | |       |             | +-o IOMediaBSDClient  <class IOMediaBSDClient, id 0x100000310, registered, matched, active, busy 0 (0 ms), retain 7>
+    | |       |             +-o Untitled 5@5  <class IOMedia, id 0x1000002ff, registered, matched, active, busy 0 (60 ms), retain 9>
+    | |       |               +-o IOMediaBSDClient  <class IOMediaBSDClient, id 0x10000030f, registered, matched, active, busy 0 (0 ms), retain 6>
+    | |       +-o PRT1@1  <class AppleIntelPchSeriesAHCIPort, id 0x1000001f2, registered, matched, active, busy 0 (894 ms), retain 12>
+    | |       | +-o IOAHCIDevice@0  <class IOAHCIDevice, id 0x10000024d, registered, matched, active, busy 0 (894 ms), retain 13>
+    | |       |   +-o AppleAHCIDiskDriver  <class AppleAHCIDiskDriver, id 0x10000025a, registered, matched, active, busy 0 (796 ms), retain 7>
+    | |       |     +-o IOAHCIBlockStorageDevice  <class IOAHCIBlockStorageDevice, id 0x100000261, registered, matched, active, busy 0 (795 ms), retain 7>
+    | |       |       +-o IOBlockStorageDriver  <class IOBlockStorageDriver, id 0x100000264, registered, matched, active, busy 0 (795 ms), retain 8>
+    | |       |         +-o SanDisk SDSSDHP128G Media  <class IOMedia, id 0x100000265, registered, matched, active, busy 0 (795 ms), retain 11>
+    | |       |           +-o IOMediaBSDClient  <class IOMediaBSDClient, id 0x100000266, registered, matched, active, busy 0 (0 ms), retain 6>
+    | |       |           +-o IOGUIDPartitionScheme  <class IOGUIDPartitionScheme, id 0x100000271, !registered, !matched, active, busy 0 (33 ms), retain 8>
+    | |       |             +-o EFI System Partition@1  <class IOMedia, id 0x1000002f5, registered, matched, active, busy 0 (0 ms), retain 9>
+    | |       |             | +-o IOMediaBSDClient  <class IOMediaBSDClient, id 0x1000002f8, registered, matched, active, busy 0 (0 ms), retain 6>
+    | |       |             +-o Untitled 2@2  <class IOMedia, id 0x1000002f6, registered, matched, active, busy 0 (33 ms), retain 11>
+    | |       |             | +-o IOMediaBSDClient  <class IOMediaBSDClient, id 0x100000302, registered, matched, active, busy 0 (0 ms), retain 6>
+    | |       |             | +-o CoreStoragePhysical  <class CoreStoragePhysical, id 0x100000303, !registered, !matched, active, busy 0 (21 ms), retain 7>
+    | |       |             |   +-o FusionDrive  <class CoreStorageGroup, id 0x100000317, registered, matched, active, busy 0 (21 ms), retain 10>
+    | |       |             |     +-o macOS  <class CoreStorageLogical, id 0x10000031c, registered, matched, active, busy 0 (2 ms), retain 12>
+    | |       |             |       +-o CoreStorageLogicalBSDClient  <class CoreStorageLogicalBSDClient, id 0x10000031d, registered, matched, active, busy 0 (0 ms), retain 7>
+    | |       |             +-o Booter@3  <class IOMedia, id 0x1000002f7, registered, matched, active, busy 0 (7 ms), retain 9>
+    | |       |               +-o IOMediaBSDClient  <class IOMediaBSDClient, id 0x100000309, registered, matched, active, busy 0 (1 ms), retain 6>
+    | |       +-o PRT3@3  <class AppleIntelPchSeriesAHCIPort, id 0x1000001f4, registered, matched, active, busy 0 (0 ms), retain 9>
+    | +-o PDRC  <class IOACPIPlatformDevice, id 0x100000146, registered, matched, active, busy 0 (0 ms), retain 7>
+    | +-o PNLF@0  <class IOACPIPlatformDevice, id 0x10000015b, registered, matched, active, busy 0 (34 ms), retain 9>
+    | | +-o AppleIntelPanelA  <class AppleIntelPanelA, id 0x10000035d, !registered, !matched, active, busy 0, retain 5>
+    | +-o EC  <class IOACPIPlatformDevice, id 0x100000181, registered, matched, active, busy 0 (242 ms), retain 10>
+    | | +-o AppleBusPowerControllerUSB  <class AppleBusPowerControllerUSB, id 0x100000206, registered, matched, active, busy 0 (38 ms), retain 6>
+    | | +-o AppleACPIEC  <class AppleACPIEC, id 0x100000207, !registered, !matched, active, busy 0, retain 5>
+    | +-o DMAC  <class IOACPIPlatformDevice, id 0x100000182, registered, matched, active, busy 0 (0 ms), retain 7>
+    | +-o FWHD  <class IOACPIPlatformDevice, id 0x100000183, registered, matched, active, busy 0 (0 ms), retain 7>
+    | +-o GTPM  <class IOACPIPlatformDevice, id 0x100000184, registered, matched, active, busy 0 (0 ms), retain 7>
+    | +-o HPET  <class IOACPIPlatformDevice, id 0x100000185, registered, matched, active, busy 0 (39 ms), retain 8>
+    | | +-o AppleHPET  <class AppleHPET, id 0x100000217, !registered, !matched, active, busy 0, retain 4>
+    | +-o IPIC  <class IOACPIPlatformDevice, id 0x100000186, registered, matched, active, busy 0 (0 ms), retain 7>
+    | +-o MATH  <class IOACPIPlatformDevice, id 0x100000187, registered, matched, active, busy 0 (0 ms), retain 7>
+    | +-o LDRC  <class IOACPIPlatformDevice, id 0x100000188, registered, matched, active, busy 0 (0 ms), retain 7>
+    | +-o RTC  <class IOACPIPlatformDevice, id 0x100000189, registered, matched, active, busy 0 (41 ms), retain 9>
+    | | +-o AppleRTC  <class AppleRTC, id 0x100000219, registered, matched, active, busy 0 (0 ms), retain 7>
+    | +-o TIMR  <class IOACPIPlatformDevice, id 0x10000018a, registered, matched, active, busy 0 (1 ms), retain 7>
+    | +-o SIO  <class IOACPIPlatformDevice, id 0x10000018b, registered, matched, active, busy 0 (1 ms), retain 7>
+    | +-o PS2K  <class IOACPIPlatformDevice, id 0x10000018c, registered, matched, active, busy 0 (892 ms), retain 9>
+    | | +-o ps2controller  <class AppleACPIPS2Nub, id 0x100000211, registered, matched, active, busy 0 (870 ms), retain 9>
+    | |   +-o ApplePS2Controller  <class ApplePS2Controller, id 0x100000247, registered, matched, active, busy 0 (665 ms), retain 10>
+    | |     +-o ApplePS2KeyboardDevice  <class ApplePS2KeyboardDevice, id 0x10000027b, registered, matched, active, busy 0 (71 ms), retain 8>
+    | |     | +-o ApplePS2Keyboard  <class ApplePS2Keyboard, id 0x10000027d, registered, matched, active, busy 0 (38 ms), retain 10>
+    | |     |   +-o IOHIDKeyboardEventDevice  <class IOHIDKeyboardEventDevice, id 0x1000002eb, registered, matched, active, busy 0 (37 ms), retain 12>
+    | |     |   | +-o IOHIDInterface  <class IOHIDInterface, id 0x1000002f0, registered, matched, active, busy 0 (15 ms), retain 7>
+    | |     |   | | +-o IOHIDEventDriver  <class IOHIDEventDriver, id 0x100000311, registered, matched, active, busy 0 (0 ms), retain 8>
+    | |     |   | |   +-o IOHIDEventServiceUserClient  <class IOHIDEventServiceUserClient, id 0x100000334, !registered, !matched, active, busy 0, retain 6>
+    | |     |   | +-o IOHIDLibUserClient  <class IOHIDLibUserClient, id 0x100000434, !registered, !matched, active, busy 0, retain 6>
+    | |     |   | +-o IOHIDLibUserClient  <class IOHIDLibUserClient, id 0x1000004ca, !registered, !matched, active, busy 0, retain 5>
+    | |     |   | +-o IOHIDLibUserClient  <class IOHIDLibUserClient, id 0x1000004cd, !registered, !matched, active, busy 0, retain 5>
+    | |     |   +-o IOHIDSystem  <class IOHIDSystem, id 0x1000002e4, registered, matched, active, busy 0 (1 ms), retain 13>
+    | |     |     +-o IOHIDEventSystemUserClient  <class IOHIDEventSystemUserClient, id 0x100000333, !registered, !matched, active, busy 0, retain 5>
+    | |     |     +-o IOHIDUserClient  <class IOHIDUserClient, id 0x1000003d9, !registered, !matched, active, busy 0, retain 5>
+    | |     |     +-o IOHIDParamUserClient  <class IOHIDParamUserClient, id 0x1000003dd, !registered, !matched, active, busy 0, retain 5>
+    | |     +-o ApplePS2MouseDevice  <class ApplePS2MouseDevice, id 0x10000027c, registered, matched, active, busy 0 (659 ms), retain 8>
+    | |       +-o ApplePS2SynapticsTouchPad  <class ApplePS2SynapticsTouchPad, id 0x100000281, registered, matched, active, busy 0 (47 ms), retain 10>
+    | |         +-o IOHIDPointingEventDevice  <class IOHIDPointingEventDevice, id 0x1000002ef, registered, matched, active, busy 0 (46 ms), retain 6>
+    | |         | +-o IOHIDInterface  <class IOHIDInterface, id 0x1000002f1, registered, matched, active, busy 0 (46 ms), retain 7>
+    | |         |   +-o IOHIDEventDriver  <class IOHIDEventDriver, id 0x10000035f, registered, matched, active, busy 0 (5 ms), retain 8>
+    | |         |     +-o IOHIDEventServiceUserClient  <class IOHIDEventServiceUserClient, id 0x100000366, !registered, !matched, active, busy 0, retain 6>
+    | |         +-o IOHIDSystem  <class IOHIDSystem, id 0x1000002e4, registered, matched, active, busy 0 (1 ms), retain 13>
+    | |           +-o IOHIDEventSystemUserClient  <class IOHIDEventSystemUserClient, id 0x100000333, !registered, !matched, active, busy 0, retain 5>
+    | |           +-o IOHIDUserClient  <class IOHIDUserClient, id 0x1000003d9, !registered, !matched, active, busy 0, retain 5>
+    | |           +-o IOHIDParamUserClient  <class IOHIDParamUserClient, id 0x1000003dd, !registered, !matched, active, busy 0, retain 5>
+    | +-o PS2M  <class IOACPIPlatformDevice, id 0x10000018d, registered, matched, active, busy 0 (1 ms), retain 8>
+    | | +-o ps2controller  <class AppleACPIPS2Nub, id 0x100000211, registered, matched, active, busy 0 (870 ms), retain 9>
+    | |   +-o ApplePS2Controller  <class ApplePS2Controller, id 0x100000247, registered, matched, active, busy 0 (665 ms), retain 10>
+    | |     +-o ApplePS2KeyboardDevice  <class ApplePS2KeyboardDevice, id 0x10000027b, registered, matched, active, busy 0 (71 ms), retain 8>
+    | |     | +-o ApplePS2Keyboard  <class ApplePS2Keyboard, id 0x10000027d, registered, matched, active, busy 0 (38 ms), retain 10>
+    | |     |   +-o IOHIDKeyboardEventDevice  <class IOHIDKeyboardEventDevice, id 0x1000002eb, registered, matched, active, busy 0 (37 ms), retain 12>
+    | |     |   | +-o IOHIDInterface  <class IOHIDInterface, id 0x1000002f0, registered, matched, active, busy 0 (15 ms), retain 7>
+    | |     |   | | +-o IOHIDEventDriver  <class IOHIDEventDriver, id 0x100000311, registered, matched, active, busy 0 (0 ms), retain 8>
+    | |     |   | |   +-o IOHIDEventServiceUserClient  <class IOHIDEventServiceUserClient, id 0x100000334, !registered, !matched, active, busy 0, retain 6>
+    | |     |   | +-o IOHIDLibUserClient  <class IOHIDLibUserClient, id 0x100000434, !registered, !matched, active, busy 0, retain 6>
+    | |     |   | +-o IOHIDLibUserClient  <class IOHIDLibUserClient, id 0x1000004ca, !registered, !matched, active, busy 0, retain 5>
+    | |     |   | +-o IOHIDLibUserClient  <class IOHIDLibUserClient, id 0x1000004cd, !registered, !matched, active, busy 0, retain 5>
+    | |     |   +-o IOHIDSystem  <class IOHIDSystem, id 0x1000002e4, registered, matched, active, busy 0 (1 ms), retain 13>
+    | |     |     +-o IOHIDEventSystemUserClient  <class IOHIDEventSystemUserClient, id 0x100000333, !registered, !matched, active, busy 0, retain 5>
+    | |     |     +-o IOHIDUserClient  <class IOHIDUserClient, id 0x1000003d9, !registered, !matched, active, busy 0, retain 5>
+    | |     |     +-o IOHIDParamUserClient  <class IOHIDParamUserClient, id 0x1000003dd, !registered, !matched, active, busy 0, retain 5>
+    | |     +-o ApplePS2MouseDevice  <class ApplePS2MouseDevice, id 0x10000027c, registered, matched, active, busy 0 (659 ms), retain 8>
+    | |       +-o ApplePS2SynapticsTouchPad  <class ApplePS2SynapticsTouchPad, id 0x100000281, registered, matched, active, busy 0 (47 ms), retain 10>
+    | |         +-o IOHIDPointingEventDevice  <class IOHIDPointingEventDevice, id 0x1000002ef, registered, matched, active, busy 0 (46 ms), retain 6>
+    | |         | +-o IOHIDInterface  <class IOHIDInterface, id 0x1000002f1, registered, matched, active, busy 0 (46 ms), retain 7>
+    | |         |   +-o IOHIDEventDriver  <class IOHIDEventDriver, id 0x10000035f, registered, matched, active, busy 0 (5 ms), retain 8>
+    | |         |     +-o IOHIDEventServiceUserClient  <class IOHIDEventServiceUserClient, id 0x100000366, !registered, !matched, active, busy 0, retain 6>
+    | |         +-o IOHIDSystem  <class IOHIDSystem, id 0x1000002e4, registered, matched, active, busy 0 (1 ms), retain 13>
+    | |           +-o IOHIDEventSystemUserClient  <class IOHIDEventSystemUserClient, id 0x100000333, !registered, !matched, active, busy 0, retain 5>
+    | |           +-o IOHIDUserClient  <class IOHIDUserClient, id 0x1000003d9, !registered, !matched, active, busy 0, retain 5>
+    | |           +-o IOHIDParamUserClient  <class IOHIDParamUserClient, id 0x1000003dd, !registered, !matched, active, busy 0, retain 5>
+    | +-o ACEL  <class IOACPIPlatformDevice, id 0x10000019f, registered, matched, active, busy 0 (1 ms), retain 7>
+    | +-o MEM2  <class IOACPIPlatformDevice, id 0x1000001a1, registered, matched, active, busy 0 (1 ms), retain 7>
+    | +-o BAT0  <class IOACPIPlatformDevice, id 0x1000001aa, registered, matched, active, busy 0 (1 ms), retain 7>
+    | +-o BAT1  <class IOACPIPlatformDevice, id 0x1000001ab, registered, matched, active, busy 0 (1 ms), retain 7>
+    | +-o AC  <class IOACPIPlatformDevice, id 0x1000001ac, registered, matched, active, busy 0 (21 ms), retain 9>
+    | | +-o rehab_ACPIACAdapter  <class rehab_ACPIACAdapter, id 0x100000212, !registered, !matched, active, busy 0, retain 4>
+    | +-o SLPB  <class IOACPIPlatformDevice, id 0x1000001ad, registered, matched, active, busy 0 (57 ms), retain 8>
+    | | +-o AppleACPIButton  <class AppleACPIButton, id 0x100000208, registered, matched, active, busy 0 (54 ms), retain 7>
+    | |   +-o IOHIDEventServiceUserClient  <class IOHIDEventServiceUserClient, id 0x100000336, !registered, !matched, active, busy 0, retain 6>
+    | +-o LID  <class IOACPIPlatformDevice, id 0x1000001ae, registered, matched, active, busy 0 (38 ms), retain 9>
+    | | +-o AppleACPILid  <class AppleACPILid, id 0x100000215, !registered, !matched, active, busy 0, retain 5>
+    | +-o WMID  <class IOACPIPlatformDevice, id 0x1000001af, registered, matched, active, busy 0 (1 ms), retain 7>
+    | +-o BATC  <class IOACPIPlatformDevice, id 0x1000001b0, registered, matched, active, busy 0 (222 ms), retain 8>
+    | | +-o AppleSmartBatteryManager  <class AppleSmartBatteryManager, id 0x100000216, registered, matched, active, busy 0 (0 ms), retain 8>
+    | |   +-o AppleSmartBattery  <class AppleSmartBattery, id 0x100000279, registered, matched, active, busy 0 (0 ms), retain 6>
+    | +-o SMCD  <class IOACPIPlatformDevice, id 0x1000001b1, registered, matched, active, busy 0 (93 ms), retain 9>
+    | | +-o ACPISensors  <class ACPISensors, id 0x100000234, registered, matched, active, busy 0 (0 ms), retain 5>
+    | | +-o org_rehabman_ACPIPoller  <class org_rehabman_ACPIPoller, id 0x100000235, registered, matched, active, busy 0 (0 ms), retain 5>
+    | +-o RMD1  <class IOACPIPlatformDevice, id 0x1000001b4, registered, matched, active, busy 0 (1 ms), retain 7>
+    | +-o UIAC  <class IOACPIPlatformDevice, id 0x1000001b5, registered, matched, active, busy 0 (1 ms), retain 7>
+    | +-o power-button  <class IOACPIPlatformDevice, id 0x100000203, registered, matched, active, busy 0 (57 ms), retain 7>
+    | | +-o AppleACPIButton  <class AppleACPIButton, id 0x100000218, registered, matched, active, busy 0 (17 ms), retain 7>
+    | |   +-o IOHIDEventServiceUserClient  <class IOHIDEventServiceUserClient, id 0x100000335, !registered, !matched, active, busy 0, retain 6>
+    | +-o CPUZ  <class IOACPIPlatformDevice, id 0x100000205, registered, matched, active, busy 0 (36 ms), retain 6>
+    | +-o GFXZ  <class IOACPIPlatformDevice, id 0x100000209, registered, matched, active, busy 0 (35 ms), retain 6>
+    | +-o EXTZ  <class IOACPIPlatformDevice, id 0x10000020a, registered, matched, active, busy 0 (35 ms), retain 6>
+    | +-o LOCZ  <class IOACPIPlatformDevice, id 0x10000020b, registered, matched, active, busy 0 (35 ms), retain 6>
+    | +-o BATZ  <class IOACPIPlatformDevice, id 0x10000020c, registered, matched, active, busy 0 (35 ms), retain 6>
+    | +-o PCHZ  <class IOACPIPlatformDevice, id 0x10000020d, registered, matched, active, busy 0 (36 ms), retain 6>
+    | +-o DM1Z  <class IOACPIPlatformDevice, id 0x10000020f, registered, matched, active, busy 0 (36 ms), retain 6>
+    | +-o DM2Z  <class IOACPIPlatformDevice, id 0x100000210, registered, matched, active, busy 0 (148 ms), retain 6>
+    | +-o AppleEFIRuntime  <class AppleEFIRuntime, id 0x100000220, registered, matched, active, busy 0 (1682 ms), retain 8>
+    | | +-o AppleEFINVRAM  <class AppleEFINVRAM, id 0x100000226, registered, matched, active, busy 0 (0 ms), retain 17>
+    | +-o FSMC  <class FakeSMC, id 0x100000221, registered, matched, active, busy 0 (0 ms), retain 7>
+    | +-o SMC  <class FakeSMCDevice, id 0x100000225, registered, matched, active, busy 0 (226 ms), retain 7>
+    |   +-o AppleSMC  <class AppleSMC, id 0x100000248, registered, matched, active, busy 0 (46 ms), retain 9>
+    |     +-o SMCWatchDogTimer  <class SMCWatchDogTimer, id 0x100000260, registered, matched, active, busy 0 (34 ms), retain 8>
+    |     | +-o AppleOSXWatchdog  <class AppleOSXWatchdog, id 0x100000356, registered, matched, active, busy 0 (0 ms), retain 6>
+    |     |   +-o AppleOSXWatchdogClient  <class AppleOSXWatchdogClient, id 0x1000003ac, !registered, !matched, active, busy 0, retain 5>
+    |     +-o AppleSMCClient  <class AppleSMCClient, id 0x1000003cc, !registered, !matched, active, busy 0, retain 6>
+    +-o IOResources  <class IOResources, id 0x100000112, registered, matched, active, busy 0 (1364 ms), retain 50>
+      +-o AppleFDEKeyStore  <class AppleFDEKeyStore, id 0x100000121, registered, matched, active, busy 0 (0 ms), retain 7>
+      +-o IOReportHub  <class IOReportHub, id 0x100000122, registered, matched, active, busy 0 (0 ms), retain 6>
+      | +-o IOReportUserClient  <class IOReportUserClient, id 0x1000003db, !registered, !matched, active, busy 0, retain 5>
+      +-o IOHDIXController  <class IOHDIXController, id 0x100000123, registered, matched, active, busy 0 (0 ms), retain 5>
+      +-o IOBufferCopyEngineTestDummy  <class IOBufferCopyEngineTestDummy, id 0x100000125, registered, matched, active, busy 0 (0 ms), retain 5>
+      +-o AppleCredentialManager  <class AppleCredentialManager, id 0x100000126, registered, matched, active, busy 0 (0 ms), retain 7>
+      | +-o AppleCredentialManagerUserClient  <class AppleCredentialManagerUserClient, id 0x10000043f, !registered, !matched, active, busy 0, retain 5>
+      +-o AppleKeyStore  <class AppleKeyStore, id 0x100000127, registered, matched, active, busy 0 (0 ms), retain 18>
+      | +-o AppleKeyStoreUserClient  <class AppleKeyStoreUserClient, id 0x100000353, !registered, !matched, active, busy 0, retain 6>
+      | +-o AppleKeyStoreUserClient  <class AppleKeyStoreUserClient, id 0x1000003ae, !registered, !matched, active, busy 0, retain 6>
+      | +-o AppleKeyStoreUserClient  <class AppleKeyStoreUserClient, id 0x10000046e, !registered, !matched, active, busy 0, retain 6>
+      | +-o AppleKeyStoreUserClient  <class AppleKeyStoreUserClient, id 0x10000046f, !registered, !matched, active, busy 0, retain 6>
+      | +-o AppleKeyStoreUserClient  <class AppleKeyStoreUserClient, id 0x100000470, !registered, !matched, active, busy 0, retain 6>
+      | +-o AppleKeyStoreUserClient  <class AppleKeyStoreUserClient, id 0x100000473, !registered, !matched, active, busy 0, retain 6>
+      | +-o AppleKeyStoreUserClient  <class AppleKeyStoreUserClient, id 0x100000475, !registered, !matched, active, busy 0, retain 6>
+      | +-o AppleKeyStoreUserClient  <class AppleKeyStoreUserClient, id 0x100000485, !registered, !matched, active, busy 0, retain 6>
+      | +-o AppleKeyStoreUserClient  <class AppleKeyStoreUserClient, id 0x1000004d9, !registered, !matched, active, busy 0, retain 6>
+      | +-o AppleKeyStoreUserClient  <class AppleKeyStoreUserClient, id 0x10000050e, !registered, !matched, active, busy 0, retain 6>
+      +-o AppleIntelCPUPowerManagement  <class AppleIntelCPUPowerManagement, id 0x100000128, registered, matched, active, busy 0 (1091 ms), retain 6>
+      | +-o AppleIntelCPUPowerManagementClient  <class AppleIntelCPUPowerManagementClient, id 0x100000139, !registered, !matched, active, busy 0, retain 4>
+      +-o IntelGraphicsFixup  <class IntelGraphicsFixup, id 0x100000129, !registered, !matched, active, busy 0, retain 4>
+      +-o FakeSMCKeyStore  <class FakeSMCKeyStore, id 0x10000012a, registered, matched, active, busy 0 (0 ms), retain 19>
+      | +-o FakeSMCKeyStoreUserClient  <class FakeSMCKeyStoreUserClient, id 0x10000049a, !registered, !matched, active, busy 0, retain 5>
+      +-o AppleALC  <class AppleALC, id 0x10000012b, !registered, !matched, active, busy 0, retain 4>
+      +-o Lilu  <class Lilu, id 0x10000012c, !registered, !matched, active, busy 0, retain 4>
+      +-o rehab_BatteryTracker  <class rehab_BatteryTracker, id 0x10000012d, registered, matched, active, busy 0 (0 ms), retain 8>
+      +-o AppleUSBHostResources  <class AppleUSBHostResources, id 0x100000238, registered, matched, active, busy 0 (508 ms), retain 36>
+      | +-o AppleUSBLegacyRoot  <class AppleUSBLegacyRoot, id 0x100000255, registered, matched, active, busy 0 (353 ms), retain 23>
+      | | +-o AppleUSBEHCI@1a000000  <class AppleUSBController, id 0x100000287, registered, matched, active, busy 0 (158 ms), retain 11>
+      | | | +-o AppleUSBEHCI Root Hub Simulation@1a000000  <class AppleUSBRootHubDevice, id 0x100000288, registered, matched, active, busy 0 (9 ms), retain 9>
+      | | | +-o IOUSBHostDevice@1a100000  <class AppleUSBDevice, id 0x10000028a, registered, matched, active, busy 0 (8 ms), retain 12>
+      | | | | +-o AppleUSBInterface@0  <class AppleUSBInterface, id 0x10000029c, !registered, !matched, active, busy 0 (0 ms), retain 4>
+      | | | +-o HP HD Webcam [Fixed]@1a130000  <class AppleUSBDevice, id 0x1000002cc, registered, matched, active, busy 0 (157 ms), retain 17>
+      | | |   +-o HP HD Webcam [Fixed]@0  <class AppleUSBInterface, id 0x1000002db, registered, matched, active, busy 0 (8 ms), retain 8>
+      | | |   | +-o VDCAssistant  <class IOUSBInterfaceUserClientV3, id 0x100000432, !registered, !matched, active, busy 0, retain 6>
+      | | |   +-o AppleUSBInterface@1  <class AppleUSBInterface, id 0x1000002dc, registered, matched, active, busy 0 (8 ms), retain 8>
+      | | |   | +-o VDCAssistant  <class IOUSBInterfaceUserClientV3, id 0x100000433, !registered, !matched, active, busy 0, retain 6>
+      | | |   +-o VDCAssistant  <class IOUSBDeviceUserClientV2, id 0x100000431, !registered, !matched, active, busy 0, retain 5>
+      | | +-o AppleUSBEHCI@1d000000  <class AppleUSBController, id 0x10000028e, registered, matched, active, busy 0 (351 ms), retain 13>
+      | |   +-o AppleUSBEHCI Root Hub Simulation@1d000000  <class AppleUSBRootHubDevice, id 0x10000028f, registered, matched, active, busy 0 (8 ms), retain 9>
+      | |   +-o IOUSBHostDevice@1d100000  <class AppleUSBDevice, id 0x100000291, registered, matched, active, busy 0 (9 ms), retain 13>
+      | |   | +-o AppleUSBInterface@0  <class AppleUSBInterface, id 0x10000029e, !registered, !matched, active, busy 0 (0 ms), retain 4>
+      | |   +-o Android Phone@1d130000  <class AppleUSBDevice, id 0x1000002c0, registered, matched, active, busy 0 (345 ms), retain 18>
+      | |   | +-o HoRNDISUSBDevice  <class HoRNDISUSBDevice, id 0x1000002c4, !registered, !matched, active, busy 0 (0 ms), retain 6>
+      | |   | | +-o en3  <class HoRNDISInterface, id 0x100000319, registered, matched, active, busy 0 (0 ms), retain 10>
+      | |   | |   +-o IONetworkStack  <class IONetworkStack, id 0x1000002e2, registered, matched, active, busy 0 (0 ms), retain 11>
+      | |   | |     +-o IONetworkStackUserClient  <class IONetworkStackUserClient, id 0x10000032d, !registered, !matched, active, busy 0, retain 5>
+      | |   | +-o RNDIS Communications Control@0  <class AppleUSBInterface, id 0x100000313, registered, matched, active, busy 0 (9 ms), retain 8>
+      | |   | +-o RNDIS Ethernet Data@1  <class AppleUSBInterface, id 0x100000315, registered, matched, active, busy 0 (9 ms), retain 9>
+      | |   +-o BCM20702A0@1d160000  <class AppleUSBDevice, id 0x1000002c7, registered, matched, active, busy 0 (13 ms), retain 17>
+      | |     +-o AppleUSBInterface@0  <class AppleUSBInterface, id 0x1000003c4, registered, matched, active, busy 0 (9 ms), retain 5>
+      | |     +-o AppleUSBInterface@1  <class AppleUSBInterface, id 0x1000003c5, registered, matched, active, busy 0 (9 ms), retain 5>
+      | |     +-o AppleUSBInterface@2  <class AppleUSBInterface, id 0x1000003c6, registered, matched, active, busy 0 (9 ms), retain 5>
+      | |     +-o AppleUSBInterface@3  <class AppleUSBInterface, id 0x1000003c7, registered, matched, active, busy 0 (9 ms), retain 5>
+      | +-o AppleUSBHostPacketFilterService  <class AppleUSBHostPacketFilterService, id 0x100000257, !registered, !matched, active, busy 0, retain 4>
+      +-o BrcmFirmwareStore  <class BrcmFirmwareStore, id 0x1000002d3, registered, matched, active, busy 0 (0 ms), retain 7>
+      +-o BrcmPatchRAMResidency  <class BrcmPatchRAMResidency, id 0x1000002d5, registered, matched, active, busy 0 (0 ms), retain 6>
+      +-o AppleMobileFileIntegrity  <class AppleMobileFileIntegrity, id 0x1000002e1, registered, matched, active, busy 0 (0 ms), retain 6>
+      +-o IONetworkStack  <class IONetworkStack, id 0x1000002e2, registered, matched, active, busy 0 (0 ms), retain 10>
+      | +-o IONetworkStackUserClient  <class IONetworkStackUserClient, id 0x10000032d, !registered, !matched, active, busy 0, retain 5>
+      +-o IOHIDResource  <class IOHIDResource, id 0x1000002e3, registered, matched, active, busy 0 (0 ms), retain 5>
+      +-o IOHIDSystem  <class IOHIDSystem, id 0x1000002e4, registered, matched, active, busy 0 (1 ms), retain 13>
+      | +-o IOHIDEventSystemUserClient  <class IOHIDEventSystemUserClient, id 0x100000333, !registered, !matched, active, busy 0, retain 5>
+      | +-o IOHIDUserClient  <class IOHIDUserClient, id 0x1000003d9, !registered, !matched, active, busy 0, retain 5>
+      | +-o IOHIDParamUserClient  <class IOHIDParamUserClient, id 0x1000003dd, !registered, !matched, active, busy 0, retain 5>
+      +-o com_apple_filesystems_hfs_encodings  <class com_apple_filesystems_hfs_encodings, id 0x1000002e6, !registered, !matched, active, busy 0, retain 4>
+      +-o com_apple_filesystems_hfs  <class com_apple_filesystems_hfs, id 0x1000002e7, !registered, !matched, active, busy 0, retain 4>
+      +-o com_apple_BootCache  <class com_apple_BootCache, id 0x1000002e8, !registered, !matched, active, busy 0, retain 4>
+      +-o com_apple_AppleFSCompression_AppleFSCompressionTypeZlib  <class com_apple_AppleFSCompression_AppleFSCompressionTypeZlib, id 0x1000002e9, !registered, !matched, active, busy 0, retain 4>
+      +-o com_apple_AppleFSCompression_AppleFSCompressionTypeDataless  <class com_apple_AppleFSCompression_AppleFSCompressionTypeDataless, id 0x1000002ea, !registered, !matched, active, busy 0, retain 4>
+      +-o CoreStorage  <class CoreStorage, id 0x100000305, registered, matched, active, busy 0 (2 ms), retain 7>
+      +-o AppleSCSISubsystemGlobals  <class AppleSCSISubsystemGlobals, id 0x10000032b, registered, matched, active, busy 0 (0 ms), retain 6>
+      +-o AppleIntelSlowAdaptiveClockingManager  <class AppleIntelSlowAdaptiveClockingManager, id 0x100000386, registered, matched, active, busy 0 (0 ms), retain 5>
+      +-o com_apple_AVEBridge  <class com_apple_AVEBridge, id 0x100000387, registered, matched, active, busy 0 (0 ms), retain 5>
+      +-o AppleGPUWrangler  <class AppleGPUWrangler, id 0x100000388, registered, matched, active, busy 0 (5 ms), retain 8>
+      | +-o AppleGraphicsDeviceControlPlugin  <class AppleGraphicsDeviceControlPlugin, id 0x100000394, registered, matched, active, busy 0 (1 ms), retain 7>
+      | | +-o AGDCPluginDisplayMetrics  <class AGDCPluginDisplayMetrics, id 0x100000395, !registered, !matched, active, busy 0, retain 5>
+      | +-o AppleGPUWranglerClient  <class AppleGPUWranglerClient, id 0x1000003a6, !registered, !matched, active, busy 0, retain 5>
+      | +-o AppleGPUWranglerClient  <class AppleGPUWranglerClient, id 0x100000415, !registered, !matched, active, busy 0, retain 5>
+      +-o AppleHV  <class AppleHV, id 0x10000038a, registered, matched, active, busy 0 (0 ms), retain 5>
+      +-o AppleSSE  <class AppleSSE, id 0x10000038b, registered, matched, active, busy 0 (0 ms), retain 8>
+      +-o Dont_Steal_Mac_OS_X  <class Dont_Steal_Mac_OS_X, id 0x10000038c, !registered, !matched, active, busy 0, retain 5>
+      +-o IOBluetoothHCIController  <class IOBluetoothHCIController, id 0x10000038d, registered, matched, active, busy 0 (0 ms), retain 21>
+      | +-o AppleBroadcomBluetoothHostController  <class AppleBroadcomBluetoothHostController, id 0x1000003d7, registered, matched, active, busy 0 (0 ms), retain 6>
+      | +-o IOBluetoothHCIUserClient  <class IOBluetoothHCIUserClient, id 0x1000003da, !registered, !matched, active, busy 0, retain 6>
+      | +-o IOBluetoothHCIUserClient  <class IOBluetoothHCIUserClient, id 0x10000047b, !registered, !matched, active, busy 0, retain 6>
+      | +-o IOBluetoothHCIUserClient  <class IOBluetoothHCIUserClient, id 0x10000048b, !registered, !matched, active, busy 0, retain 6>
+      | +-o IOBluetoothHCIUserClient  <class IOBluetoothHCIUserClient, id 0x1000004cb, !registered, !matched, active, busy 0, retain 6>
+      | +-o IOBluetoothHCIUserClient  <class IOBluetoothHCIUserClient, id 0x1000004d3, !registered, !matched, active, busy 0, retain 6>
+      | +-o IOBluetoothHCIUserClient  <class IOBluetoothHCIUserClient, id 0x1000004db, !registered, !matched, active, busy 0, retain 6>
+      +-o IOBluetoothSerialManager  <class IOBluetoothSerialManager, id 0x10000038e, registered, matched, active, busy 0 (0 ms), retain 6>
+      | +-o IOBluetoothSerialClient  <class IOBluetoothSerialClient, id 0x100000398, !registered, !matched, active, busy 0 (0 ms), retain 5>
+      |   +-o IOBluetoothSerialClientSerialStreamSync  <class IOBluetoothSerialClientSerialStreamSync, id 0x10000039d, registered, matched, active, busy 0 (0 ms), retain 6>
+      |     +-o IOSerialBSDClient  <class IOSerialBSDClient, id 0x10000039e, registered, matched, active, busy 0 (0 ms), retain 5>
+      +-o IODisplayWrangler  <class IODisplayWrangler, id 0x10000038f, registered, matched, active, busy 0 (0 ms), retain 10>
+      | +-o IOAccelerationUserClient  <class IOAccelerationUserClient, id 0x100000416, !registered, !matched, active, busy 0, retain 5>
+      +-o IOSurfaceRoot  <class IOSurfaceRoot, id 0x100000390, registered, matched, active, busy 0 (0 ms), retain 73>
+      | +-o IOSurfaceRootUserClient  <class IOSurfaceRootUserClient, id 0x100000401, !registered, !matched, active, busy 0, retain 5>
+      | +-o IOSurfaceRootUserClient  <class IOSurfaceRootUserClient, id 0x10000042c, !registered, !matched, active, busy 0, retain 5>
+      | +-o IOSurfaceRootUserClient  <class IOSurfaceRootUserClient, id 0x100000479, !registered, !matched, active, busy 0, retain 5>
+      | +-o IOSurfaceRootUserClient  <class IOSurfaceRootUserClient, id 0x10000047c, !registered, !matched, active, busy 0, retain 5>
+      | +-o IOSurfaceRootUserClient  <class IOSurfaceRootUserClient, id 0x100000483, !registered, !matched, active, busy 0, retain 5>
+      | +-o IOSurfaceRootUserClient  <class IOSurfaceRootUserClient, id 0x100000491, !registered, !matched, active, busy 0, retain 5>
+      | +-o IOSurfaceRootUserClient  <class IOSurfaceRootUserClient, id 0x100000499, !registered, !matched, active, busy 0, retain 5>
+      | +-o IOSurfaceRootUserClient  <class IOSurfaceRootUserClient, id 0x1000004ce, !registered, !matched, active, busy 0, retain 5>
+      | +-o IOSurfaceRootUserClient  <class IOSurfaceRootUserClient, id 0x1000004f7, !registered, !matched, active, busy 0, retain 5>
+      | +-o IOSurfaceRootUserClient  <class IOSurfaceRootUserClient, id 0x1000004fd, !registered, !matched, active, busy 0, retain 5>
+      | +-o IOSurfaceRootUserClient  <class IOSurfaceRootUserClient, id 0x100000505, !registered, !matched, active, busy 0, retain 5>
+      | +-o IOSurfaceRootUserClient  <class IOSurfaceRootUserClient, id 0x100000506, !registered, !matched, active, busy 0, retain 5>
+      | +-o IOSurfaceRootUserClient  <class IOSurfaceRootUserClient, id 0x100000508, !registered, !matched, active, busy 0, retain 5>
+      | +-o IOSurfaceRootUserClient  <class IOSurfaceRootUserClient, id 0x100000510, !registered, !matched, active, busy 0, retain 5>
+      +-o IOTimeSyncClockManager  <class IOTimeSyncClockManager, id 0x100000391, registered, matched, active, busy 0 (0 ms), retain 5>
+      +-o IOUserEthernetResource  <class IOUserEthernetResource, id 0x100000392, registered, matched, active, busy 0 (0 ms), retain 5>
+      +-o com_apple_driver_pmtelemetry  <class com_apple_driver_pmtelemetry, id 0x100000393, registered, matched, active, busy 0 (0 ms), retain 5>
+      +-o org_virtualbox_SupDrv  <class org_virtualbox_SupDrv, id 0x100000438, registered, matched, active, busy 0 (0 ms), retain 5>
+      +-o org_virtualbox_VBoxUSB  <class org_virtualbox_VBoxUSB, id 0x100000443, registered, matched, active, busy 0 (4 ms), retain 5>

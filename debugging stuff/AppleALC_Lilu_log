@@ -1,0 +1,325 @@
+Timestamp                       (process)[PID]    
+2017-12-07 05:12:46.751863+0100  localhost kernel[0]: (kernel) Lilu:  config @ force enabling due to force flag
+2017-12-07 05:12:46.751873+0100  localhost kernel[0]: (kernel) Lilu:  config @ (DBG) boot arguments disabled 0, debug 1, slow 0, decompress 1
+2017-12-07 05:12:46.751877+0100  localhost kernel[0]: (kernel) Lilu:    init @ (DBG) initialising policy
+2017-12-07 05:12:46.751883+0100  localhost kernel[0]: calling mpo_policy_init for Lilu
+2017-12-07 05:12:46.751887+0100  localhost kernel[0]: Security policy loaded: Lilu Kernel Extension 1.2.2 DEBUG build (Lilu)
+2017-12-07 05:12:46.786895+0100  localhost kernel[0]: (kernel) Lilu:     api @ (DBG) got load request from IntelGraphicsFixup (120)
+2017-12-07 05:12:46.829935+0100  localhost kernel[0]: (kernel) Lilu:     api @ (DBG) got load request from AppleALC (122)
+2017-12-07 05:12:46.862576+0100  localhost kernel[0]: (kernel) Lilu:  policy @ (DBG) init bsd
+2017-12-07 05:12:48.621607+0100  localhost kernel[0]: (kernel) Lilu:  config @ (DBG) init via mac_cred_check_label_update_execve
+2017-12-07 05:12:48.621617+0100  localhost kernel[0]: (kernel) Lilu:   iokit @ (DBG) OSPrelinkKextCount equals to 280
+2017-12-07 05:12:48.621623+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) MachInfo asKernel 1 object constructed
+2017-12-07 05:12:48.623838+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) readMachHeader for /System/Library/Caches/com.apple.kext.caches/Startup/kernelcache
+2017-12-07 05:12:48.624062+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) readMachHeader got magic BEBAFECA
+2017-12-07 05:12:48.624250+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) readMachHeader got magic 706D6F63
+2017-12-07 05:12:48.668156+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) decompressing 16575082 bytes (estimated 45355008 bytes) with 6E767A6C compression mode
+2017-12-07 05:12:49.307044+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) readMachHeader got magic FEEDFACF
+2017-12-07 05:12:49.307051+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) found kernel mach-o header address at <private>
+2017-12-07 05:12:49.307057+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) found executable at path: /System/Library/Caches/com.apple.kext.caches/Startup/kernelcache
+2017-12-07 05:12:49.307062+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) header processing found TEXT
+2017-12-07 05:12:49.307067+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) header processing found LINKEDIT
+2017-12-07 05:12:49.307070+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) header processing found SYMTAB
+2017-12-07 05:12:49.307434+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) found kernel mach-o header address at <private>
+2017-12-07 05:12:49.307439+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) aslr/load slide is 0x0
+2017-12-07 05:12:49.307445+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) MachInfo asKernel 0 object constructed
+2017-12-07 05:12:49.312415+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) readMachHeader for /System/Library/Extensions/AppleIntelHD4000Graphics.kext/Contents/MacOS/AppleIntelHD4000Graphics
+2017-12-07 05:12:49.312653+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) readMachHeader got magic FEEDFACF
+2017-12-07 05:12:49.312664+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) found executable at path: /System/Library/Extensions/AppleIntelHD4000Graphics.kext/Contents/MacOS/AppleIntelHD4000Graphics
+2017-12-07 05:12:49.312686+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) header processing found TEXT
+2017-12-07 05:12:49.312690+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) header processing found LINKEDIT
+2017-12-07 05:12:49.312695+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) header processing found SYMTAB
+2017-12-07 05:12:49.314048+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) loaded kinfo com.apple.driver.AppleIntelHD4000Graphics at 1 index
+2017-12-07 05:12:49.314145+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) found symbol _gLoadedKextSummaries at 0x<private> (non-aslr 0x<private>)
+2017-12-07 05:12:49.314149+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) _gLoadedKextSummaries address <private>
+2017-12-07 05:12:49.314190+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) found symbol __ZN6OSKext25updateLoadedKextSummariesEv at 0x<private> (non-aslr 0x<private>)
+2017-12-07 05:12:49.314196+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) kext summaries (1) address <private> value 56415741E5894855
+2017-12-07 05:12:49.314201+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) diff <private> argument 81F6EC1B
+2017-12-07 05:12:49.314207+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) diff 7E08F53B argument 7E08F53B
+2017-12-07 05:12:49.314217+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) MachInfo asKernel 0 object constructed
+2017-12-07 05:12:49.314750+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) readMachHeader for /System/Library/Extensions/AppleIntelHD5000Graphics.kext/Contents/MacOS/AppleIntelHD5000Graphics
+2017-12-07 05:12:49.314959+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) readMachHeader got magic FEEDFACF
+2017-12-07 05:12:49.314969+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) found executable at path: /System/Library/Extensions/AppleIntelHD5000Graphics.kext/Contents/MacOS/AppleIntelHD5000Graphics
+2017-12-07 05:12:49.314981+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) header processing found TEXT
+2017-12-07 05:12:49.314989+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) header processing found LINKEDIT
+2017-12-07 05:12:49.315002+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) header processing found SYMTAB
+2017-12-07 05:12:49.316391+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) loaded kinfo com.apple.driver.AppleIntelHD5000Graphics at 2 index
+2017-12-07 05:12:49.316397+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) MachInfo asKernel 0 object constructed
+2017-12-07 05:12:49.317137+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) readMachHeader for /System/Library/Extensions/AppleIntelSKLGraphics.kext/Contents/MacOS/AppleIntelSKLGraphics
+2017-12-07 05:12:49.317358+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) readMachHeader got magic FEEDFACF
+2017-12-07 05:12:49.317368+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) found executable at path: /System/Library/Extensions/AppleIntelSKLGraphics.kext/Contents/MacOS/AppleIntelSKLGraphics
+2017-12-07 05:12:49.317380+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) header processing found TEXT
+2017-12-07 05:12:49.317397+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) header processing found LINKEDIT
+2017-12-07 05:12:49.317400+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) header processing found SYMTAB
+2017-12-07 05:12:49.319323+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) loaded kinfo com.apple.driver.AppleIntelSKLGraphics at 3 index
+2017-12-07 05:12:49.319329+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) MachInfo asKernel 0 object constructed
+2017-12-07 05:12:49.319366+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) readMachHeader for /System/Library/Extensions/AppleIntelSKLGraphicsFramebuffer.kext/Contents/MacOS/AppleIntelSKLGraphicsFramebuffer
+2017-12-07 05:12:49.319586+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) readMachHeader got magic FEEDFACF
+2017-12-07 05:12:49.319597+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) found executable at path: /System/Library/Extensions/AppleIntelSKLGraphicsFramebuffer.kext/Contents/MacOS/AppleIntelSKLGraphicsFramebuffer
+2017-12-07 05:12:49.319610+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) header processing found TEXT
+2017-12-07 05:12:49.319617+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) header processing found LINKEDIT
+2017-12-07 05:12:49.319631+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) header processing found SYMTAB
+2017-12-07 05:12:49.321039+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) loaded kinfo com.apple.driver.AppleIntelSKLGraphicsFramebuffer at 4 index
+2017-12-07 05:12:49.321046+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) MachInfo asKernel 0 object constructed
+2017-12-07 05:12:49.321331+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) readMachHeader for /System/Library/Extensions/AppleIntelKBLGraphics.kext/Contents/MacOS/AppleIntelKBLGraphics
+2017-12-07 05:12:49.321547+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) readMachHeader got magic FEEDFACF
+2017-12-07 05:12:49.321557+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) found executable at path: /System/Library/Extensions/AppleIntelKBLGraphics.kext/Contents/MacOS/AppleIntelKBLGraphics
+2017-12-07 05:12:49.499380+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.499390+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) processing already loaded kexts by iterating over 92 summaries
+2017-12-07 05:12:49.499421+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) discovered the right kext com.apple.iokit.IOGraphicsFamily at <private>, invoking handler
+2017-12-07 05:12:49.499430+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) aslr/load slide is 0x<private>
+2017-12-07 05:12:49.499443+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) found symbol __ZL16gIOFBVerboseBoot at 0x<private> (non-aslr 0x34267)
+2017-12-07 05:12:49.499470+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) found symbol __ZN13IOFramebuffer6initFBEv at 0x<private> (non-aslr 0x18046)
+2017-12-07 05:12:49.499478+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) diff EEC285 argument EEC285
+2017-12-07 05:12:49.499487+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) diff <private> argument FF173AAB
+2017-12-07 05:12:49.499500+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.iokit.IOGraphicsFamily
+2017-12-07 05:12:49.500646+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.500654+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.AppleSMBusController
+2017-12-07 05:12:49.502075+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.502084+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.AppleMCCSControl
+2017-12-07 05:12:49.503542+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.503550+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.iokit.IONDRVSupport
+2017-12-07 05:12:49.504865+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.504884+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.AppleBacklightExpert
+2017-12-07 05:12:49.506179+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.506190+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.AppleBacklight
+2017-12-07 05:12:49.507341+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.507350+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.iokit.IOSlowAdaptiveClockingFamily
+2017-12-07 05:12:49.508427+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.508437+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.AppleIntelSlowAdaptiveClocking
+2017-12-07 05:12:49.509546+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.509555+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.IOPlatformPluginFamily
+2017-12-07 05:12:49.510613+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.510621+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.X86PlatformPlugin
+2017-12-07 05:12:49.511774+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.511784+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.AppleGraphicsDeviceControl
+2017-12-07 05:12:49.512947+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.512955+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.iokit.IOSurface
+2017-12-07 05:12:49.514130+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.514138+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.iokit.IOAcceleratorFamily2
+2017-12-07 05:12:49.515549+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.515559+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.AppleIntelFramebufferCapri
+2017-12-07 05:12:49.515570+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) caught the right kext at <private>, invoking handler
+2017-12-07 05:12:49.515579+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) aslr/load slide is 0x<private>
+2017-12-07 05:12:49.515624+0100  localhost kernel[0]: (kernel) AppleALC:   iokit @ (DBG) getOSData vendor-id has 8086 value
+2017-12-07 05:12:49.515632+0100  localhost kernel[0]: (kernel) AppleALC:   iokit @ (DBG) getOSData device-id has 166 value
+2017-12-07 05:12:49.515638+0100  localhost kernel[0]: (kernel) AppleALC:   iokit @ (DBG) getOSData revision-id has 9 value
+2017-12-07 05:12:49.515644+0100  localhost kernel[0]: (kernel) AppleALC:   iokit @ (DBG) getOSData AAPL,ig-platform-id has 1660003 value
+2017-12-07 05:12:49.515652+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) AAPL,ig-platform-id 1660003 was found in controller at IGPU
+2017-12-07 05:12:49.515677+0100  localhost kernel[0]: (kernel) Lilu:   iokit @ (DBG) failed to find HDAU
+2017-12-07 05:12:49.515694+0100  localhost kernel[0]: (kernel) Lilu:   iokit @ (DBG) failed to find PEG0
+2017-12-07 05:12:49.515710+0100  localhost kernel[0]: (kernel) Lilu:   iokit @ (DBG) failed to find PEG1
+2017-12-07 05:12:49.515726+0100  localhost kernel[0]: (kernel) Lilu:   iokit @ (DBG) failed to find BR3A
+2017-12-07 05:12:49.515742+0100  localhost kernel[0]: (kernel) Lilu:   iokit @ (DBG) failed to find P0P1
+2017-12-07 05:12:49.515758+0100  localhost kernel[0]: (kernel) Lilu:   iokit @ (DBG) failed to find P0P2
+2017-12-07 05:12:49.515775+0100  localhost kernel[0]: (kernel) Lilu:   iokit @ (DBG) failed to find NPE3
+2017-12-07 05:12:49.515791+0100  localhost kernel[0]: (kernel) Lilu:   iokit @ (DBG) failed to find NPE7
+2017-12-07 05:12:49.515808+0100  localhost kernel[0]: (kernel) AppleALC:   iokit @ (DBG) getOSData vendor-id has 8086 value
+2017-12-07 05:12:49.515816+0100  localhost kernel[0]: (kernel) AppleALC:   iokit @ (DBG) getOSData device-id has 1E20 value
+2017-12-07 05:12:49.515836+0100  localhost kernel[0]: (kernel) AppleALC:   iokit @ (DBG) getOSData revision-id has 4 value
+2017-12-07 05:12:49.515842+0100  localhost kernel[0]: (kernel) AppleALC:   iokit @ (DBG) getOSData layout-id has C value
+2017-12-07 05:12:49.515849+0100  localhost kernel[0]: (kernel) AppleALC:   iokit @ (DBG) getOSData AAPL,ig-platform-id was not found
+2017-12-07 05:12:49.515857+0100  localhost kernel[0]: (kernel) AppleALC:   iokit @ (DBG) getOSData AAPL,snb-platform-id was not found
+2017-12-07 05:12:49.515877+0100  localhost kernel[0]: (kernel) AppleALC:   iokit @ (DBG) getOSData vendor-id has 8086 value
+2017-12-07 05:12:49.515884+0100  localhost kernel[0]: (kernel) AppleALC:   iokit @ (DBG) getOSData device-id has 1E20 value
+2017-12-07 05:12:49.515890+0100  localhost kernel[0]: (kernel) AppleALC:   iokit @ (DBG) getOSData revision-id has 4 value
+2017-12-07 05:12:49.515897+0100  localhost kernel[0]: (kernel) AppleALC:   iokit @ (DBG) getOSData layout-id has C value
+2017-12-07 05:12:49.515904+0100  localhost kernel[0]: (kernel) AppleALC:   iokit @ (DBG) getOSData AAPL,ig-platform-id was not found
+2017-12-07 05:12:49.515912+0100  localhost kernel[0]: (kernel) AppleALC:   iokit @ (DBG) getOSData AAPL,snb-platform-id was not found
+2017-12-07 05:12:49.515920+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) found 3 audio controllers
+2017-12-07 05:12:49.515927+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) validating 0 controller 8086:166:9
+2017-12-07 05:12:49.515934+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 0 mod 8086:A2F0
+2017-12-07 05:12:49.515940+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 1 mod 8086:A171
+2017-12-07 05:12:49.515946+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 2 mod 8086:8D21
+2017-12-07 05:12:49.515951+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 3 mod 8086:8D20
+2017-12-07 05:12:49.515958+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 4 mod 8086:F04
+2017-12-07 05:12:49.515964+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 5 mod 8086:24
+2017-12-07 05:12:49.515970+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 6 mod 8086:C0C
+2017-12-07 05:12:49.515977+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 7 mod 8086:8D20
+2017-12-07 05:12:49.515983+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 8 mod 8086:412
+2017-12-07 05:12:49.515989+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 9 mod 8086:1616
+2017-12-07 05:12:49.515995+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 10 mod 8086:1612
+2017-12-07 05:12:49.516002+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 11 mod 8086:1626
+2017-12-07 05:12:49.516007+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 12 mod 8086:191E
+2017-12-07 05:12:49.516013+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 13 mod 8086:1916
+2017-12-07 05:12:49.516018+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 14 mod 8086:191B
+2017-12-07 05:12:49.516024+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 15 mod 8086:191B
+2017-12-07 05:12:49.516030+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 16 mod 8086:1912
+2017-12-07 05:12:49.516036+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 17 mod 8086:5912
+2017-12-07 05:12:49.516042+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 18 mod 8086:166
+2017-12-07 05:12:49.516048+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) found mod for 0 controller
+2017-12-07 05:12:49.516054+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) validating 1 controller 8086:1E20:4
+2017-12-07 05:12:49.516060+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 0 mod 8086:A2F0
+2017-12-07 05:12:49.516067+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 1 mod 8086:A171
+2017-12-07 05:12:49.516073+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 2 mod 8086:8D21
+2017-12-07 05:12:49.516080+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 3 mod 8086:8D20
+2017-12-07 05:12:49.516086+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 4 mod 8086:F04
+2017-12-07 05:12:49.516093+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 5 mod 8086:24
+2017-12-07 05:12:49.516105+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 6 mod 8086:C0C
+2017-12-07 05:12:49.516111+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 7 mod 8086:8D20
+2017-12-07 05:12:49.516118+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 8 mod 8086:412
+2017-12-07 05:12:49.516124+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 9 mod 8086:1616
+2017-12-07 05:12:49.516130+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 10 mod 8086:1612
+2017-12-07 05:12:49.516136+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 11 mod 8086:1626
+2017-12-07 05:12:49.516142+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 12 mod 8086:191E
+2017-12-07 05:12:49.516149+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 13 mod 8086:1916
+2017-12-07 05:12:49.516155+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 14 mod 8086:191B
+2017-12-07 05:12:49.516161+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 15 mod 8086:191B
+2017-12-07 05:12:49.516168+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 16 mod 8086:1912
+2017-12-07 05:12:49.516175+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 17 mod 8086:5912
+2017-12-07 05:12:49.516181+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 18 mod 8086:166
+2017-12-07 05:12:49.516188+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 19 mod 8086:166
+2017-12-07 05:12:49.516194+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 20 mod 8086:166
+2017-12-07 05:12:49.516199+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 21 mod 1002:AAC8
+2017-12-07 05:12:49.516206+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) validating 2 controller 8086:1E20:4
+2017-12-07 05:12:49.516212+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 0 mod 8086:A2F0
+2017-12-07 05:12:49.516218+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 1 mod 8086:A171
+2017-12-07 05:12:49.516224+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 2 mod 8086:8D21
+2017-12-07 05:12:49.516232+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 3 mod 8086:8D20
+2017-12-07 05:12:49.516238+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 4 mod 8086:F04
+2017-12-07 05:12:49.516243+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 5 mod 8086:24
+2017-12-07 05:12:49.516249+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 6 mod 8086:C0C
+2017-12-07 05:12:49.516254+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 7 mod 8086:8D20
+2017-12-07 05:12:49.516260+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 8 mod 8086:412
+2017-12-07 05:12:49.516265+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 9 mod 8086:1616
+2017-12-07 05:12:49.516271+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 10 mod 8086:1612
+2017-12-07 05:12:49.516277+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 11 mod 8086:1626
+2017-12-07 05:12:49.516283+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 12 mod 8086:191E
+2017-12-07 05:12:49.516289+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 13 mod 8086:1916
+2017-12-07 05:12:49.516295+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 14 mod 8086:191B
+2017-12-07 05:12:49.516302+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 15 mod 8086:191B
+2017-12-07 05:12:49.516308+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 16 mod 8086:1912
+2017-12-07 05:12:49.516314+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 17 mod 8086:5912
+2017-12-07 05:12:49.516321+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 18 mod 8086:166
+2017-12-07 05:12:49.516327+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 19 mod 8086:166
+2017-12-07 05:12:49.516333+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 20 mod 8086:166
+2017-12-07 05:12:49.516346+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) comparing to 21 mod 1002:AAC8
+2017-12-07 05:12:49.516352+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) applying patches for 12 kext
+2017-12-07 05:12:49.516359+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) applying 0 patch for 12 kext
+2017-12-07 05:12:49.516367+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) getRunningPosition <private> of memory 1122304 size
+2017-12-07 05:12:49.518759+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) missing ControllerModInfo for 1 controller
+2017-12-07 05:12:49.518767+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) missing ControllerModInfo for 2 controller
+2017-12-07 05:12:49.520566+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.520577+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.AppleOSXWatchdog
+2017-12-07 05:12:49.522067+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.522075+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.vecLib.kext
+2017-12-07 05:12:49.523293+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.523302+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.iokit.IOAudioFamily
+2017-12-07 05:12:49.524534+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.524542+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.iokit.IOHDAFamily
+2017-12-07 05:12:49.525720+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.525729+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.AppleHDAController
+2017-12-07 05:12:49.525738+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) caught the right kext at <private>, invoking handler
+2017-12-07 05:12:49.525745+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) aslr/load slide is 0x<private>
+2017-12-07 05:12:49.525753+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) applying patches for 8 kext
+2017-12-07 05:12:49.525759+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) missing ControllerModInfo for 1 controller
+2017-12-07 05:12:49.525765+0100  localhost kernel[0]: (kernel) AppleALC:     alc @ (DBG) missing ControllerModInfo for 2 controller
+2017-12-07 05:12:49.526944+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.526953+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.AppleFIVRDriver
+2017-12-07 05:12:49.528125+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.528134+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.AppleSMCPDRC
+2017-12-07 05:12:49.529395+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.529405+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.AppleLPC
+2017-12-07 05:12:49.530639+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.530649+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.AGDCBacklightControl
+2017-12-07 05:12:49.531979+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.531988+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.AVEBridge
+2017-12-07 05:12:49.533452+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.533462+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.usb.cdc.acm
+2017-12-07 05:12:49.534846+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.534856+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.IOPlatformPluginLegacy
+2017-12-07 05:12:49.536225+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.536233+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.ACPI_SMC_PlatformPlugin
+2017-12-07 05:12:49.537738+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.537748+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.AppleGPUWrangler
+2017-12-07 05:12:49.539735+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.539745+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.eficheck
+2017-12-07 05:12:49.541249+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.541258+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.AppleIntelHD4000Graphics
+2017-12-07 05:12:49.541267+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) caught the right kext at <private>, invoking handler
+2017-12-07 05:12:49.541275+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) aslr/load slide is 0x<private>
+2017-12-07 05:12:49.541313+0100  localhost kernel[0]: (kernel) Lilu:    mach @ (DBG) found symbol __ZN16IntelAccelerator19PAVPCommandCallbackE22PAVPSessionCommandID_t18PAVPSessionAppID_tPjb at 0x<private> (non-aslr 0x44648)
+2017-12-07 05:12:49.541324+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) diff 51CC13 argument 51CC13
+2017-12-07 05:12:49.541334+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) diff <private> argument FFB43097
+2017-12-07 05:12:49.542940+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.542949+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.AppleHV
+2017-12-07 05:12:49.544418+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.544426+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.AppleSSE
+2017-12-07 05:12:49.545850+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.545858+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.Dont_Steal_Mac_OS_X
+2017-12-07 05:12:49.547581+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.547590+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.iokit.IOBluetoothFamily
+2017-12-07 05:12:49.549204+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.549213+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.AppleUpstreamUserClient
+2017-12-07 05:12:49.550652+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.550661+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.iokit.IOBluetoothSerialManager
+2017-12-07 05:12:49.552208+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.552216+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.iokit.IOTimeSyncFamily
+2017-12-07 05:12:49.553688+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.553697+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.iokit.IOUserEthernet
+2017-12-07 05:12:49.555172+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.555181+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.pmtelemetry
+2017-12-07 05:12:49.557788+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.557797+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.AGDCPluginDisplayMetrics
+2017-12-07 05:12:49.559766+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.559774+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.AppleGraphicsControl
+2017-12-07 05:12:49.561247+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:49.561257+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.AppleGraphicsDevicePolicy
+2017-12-07 05:12:50.902663+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:50.902673+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.X86PlatformShim
+2017-12-07 05:12:50.904241+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:50.904251+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.ApplePlatformEnabler
+2017-12-07 05:12:50.905954+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:50.905964+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.driver.AGPM
+2017-12-07 05:12:51.343558+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:51.343567+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.iokit.IOBluetoothHostControllerTransport
+2017-12-07 05:12:51.344855+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:51.344863+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.iokit.IOBluetoothHostControllerUSBTransport
+2017-12-07 05:12:51.346232+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:51.346241+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport
+2017-12-07 05:12:51.927712+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:51.927718+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.filesystems.ntfs
+2017-12-07 05:12:52.207663+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:52.207675+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.kext.triggers
+2017-12-07 05:12:52.209068+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:52.209075+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.filesystems.autofs
+2017-12-07 05:12:53.540046+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:53.540055+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is org.virtualbox.kext.VBoxDrv
+2017-12-07 05:12:54.852828+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:54.852835+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.iokit.IOUSBUserClient
+2017-12-07 05:12:54.875769+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:54.875777+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is org.virtualbox.kext.VBoxUSB
+2017-12-07 05:12:55.185870+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:55.185891+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is org.virtualbox.kext.VBoxNetFlt
+2017-12-07 05:12:55.502533+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:12:55.502541+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is org.virtualbox.kext.VBoxNetAdp
+2017-12-07 05:13:31.921133+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:13:31.921140+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.filesystems.msdosfs
+2017-12-07 05:15:03.436270+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:15:03.436276+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.filesystems.msdosfs
+2017-12-07 05:15:03.437216+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:15:03.437220+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.filesystems.msdosfs
+2017-12-07 05:15:03.438117+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:15:03.438122+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.filesystems.msdosfs
+2017-12-07 05:15:03.439001+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:15:03.439005+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.filesystems.msdosfs
+2017-12-07 05:15:03.439841+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:15:03.439845+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.filesystems.msdosfs
+2017-12-07 05:15:03.440646+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:15:03.440649+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.filesystems.msdosfs
+2017-12-07 05:15:03.441454+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:15:03.441458+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.filesystems.msdosfs
+2017-12-07 05:15:03.442252+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:15:03.442256+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.filesystems.msdosfs
+2017-12-07 05:15:03.443035+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:15:03.443039+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.filesystems.msdosfs
+2017-12-07 05:15:03.443807+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:15:03.443820+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.filesystems.msdosfs
+2017-12-07 05:15:03.444619+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:15:03.444623+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.filesystems.msdosfs
+2017-12-07 05:15:03.445394+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:15:03.445398+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.filesystems.msdosfs
+2017-12-07 05:15:03.446160+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:15:03.446163+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.filesystems.msdosfs
+2017-12-07 05:15:03.446920+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) invoked at kext loading/unloading
+2017-12-07 05:15:03.446923+0100  localhost kernel[0]: (kernel) Lilu: patcher @ (DBG) last kext is <private> and its name is com.apple.filesystems.msdosfs
