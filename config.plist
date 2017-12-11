@@ -405,6 +405,11 @@
 			<key>Inject</key>
 			<string>12</string>
 		</dict>
+		<key>FakeID</key>
+		<dict>
+			<key>WIFI</key>
+			<string>0x432114E4</string>
+		</dict>
 		<key>USB</key>
 		<dict>
 			<key>Inject</key>
