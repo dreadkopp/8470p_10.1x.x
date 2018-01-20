@@ -469,8 +469,10 @@
 		<key>Inject</key>
 		<dict>
 			<key>Intel</key>
-			<false/>
+			<true/>
 		</dict>
+		<key>ig-platform-id</key>
+		<string>0x01660003</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
