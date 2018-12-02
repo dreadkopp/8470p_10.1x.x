@@ -1,5 +1,5 @@
-# 8470p_10.13.x
-clover folder with needed fixes for the elitebook 8470p (i5 model) to run high sierra
+# 8470p_10.1x.x
+clover folder with needed fixes for the elitebook 8470p (i5 model) to run high sierra or mojave
 
 Simply copy over this clover folder to your install stick ESD / main drive ESD
 
